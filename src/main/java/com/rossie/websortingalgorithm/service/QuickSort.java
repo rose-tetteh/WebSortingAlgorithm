@@ -2,7 +2,11 @@ package com.rossie.websortingalgorithm.service;
 
 import java.util.List;
 
+/**
+ * The type Quick sort.
+ */
 public class QuickSort implements SortAlgorithm {
+
     @Override
     public List<Integer> sort(List<Integer> data) {
         quickSort(data, 0, data.size()-1);
@@ -17,6 +21,14 @@ public class QuickSort implements SortAlgorithm {
         }
     }
 
+    /**
+     * Partition int.
+     *
+     * @param array the array
+     * @param low   the low
+     * @param high  the high
+     * @return the int
+     */
     static int partition(List<Integer> array, int low,int high){
         int pivot = array.get(high);
         int i = low-1;

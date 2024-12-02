@@ -3,6 +3,9 @@ package com.rossie.websortingalgorithm.service;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * The type Radix sort.
+ */
 public class RadixSort implements SortAlgorithm {
     @Override
     public List<Integer> sort(List<Integer> data) {

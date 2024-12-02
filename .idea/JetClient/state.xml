@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JetClientState">
+    <option name="folders">
+      <list>
+        <folderState>
+          <option name="environmentGroups">
+            <list>
+              <environmentGroupState>
+                <option name="name" value="Default" />
+              </environmentGroupState>
+            </list>
+          </option>
+          <option name="folders">
+            <list>
+              <folderState>
+                <option name="id" value="e55e18ca-e552-494f-b855-18d5664c122c" />
+                <option name="name" value="New Folder" />
+                <option name="requests">
+                  <list>
+                    <requestState>
+                      <option name="id" value="e126fe85-7c74-4bbd-8ae2-f2514266feca" />
+                      <option name="method" value="GET" />
+                      <option name="name" value="Get all Data" />
+                      <option name="sortWeight" value="1000000" />
+                      <option name="url" value="http://localhost:8080/WebSortingAlgorithm_war/api/v1/data" />
+                    </requestState>
+                    <requestState>
+                      <option name="body">
+                        <bodyState>
+                          <option name="raw" value="[11, 23, 67, 45, 89, 90, 33, 4]" />
+                          <option name="type" value="JSON" />
+                        </bodyState>
+                      </option>
+                      <option name="id" value="587fd534-86ac-46f8-ad19-6a0aa0ff5f89" />
+                      <option name="method" value="POST" />
+                      <option name="name" value="CreateData" />
+                      <option name="sortWeight" value="2000000" />
+                      <option name="url" value="http://localhost:8080/WebSortingAlgorithm_war/api/v1/data/add" />
+                    </requestState>
+                    <requestState>
+                      <option name="id" value="3813599c-f721-4af2-b00d-36342830bbd0" />
+                      <option name="method" value="GET" />
+                      <option name="name" value="Get data by Id" />
+                      <option name="queryParams">
+                        <list>
+                          <queryParamState>
+                            <option name="disabled" value="true" />
+                            <option name="key" value="id" />
+                            <option name="value" value="2" />
+                          </queryParamState>
+                        </list>
+                      </option>
+                      <option name="sortWeight" value="3000000" />
+                      <option name="url" value="http://localhost:8080/WebSortingAlgorithm_war/api/v1/data/1" />
+                    </requestState>
+                    <requestState>
+                      <option name="id" value="f795f7c8-9aea-4b7b-b50c-5d60f3925314" />
+                      <option name="method" value="GET" />
+                      <option name="name" value="get data by algorithm" />
+                      <option name="sortWeight" value="4000000" />
+                    </requestState>
+                  </list>
+                </option>
+                <option name="sortWeight" value="1000000" />
+                <option name="variables">
+                  <variablesState>
+                    <option name="json" value="{&#10;  globals: {&#10;    baseUrl:&quot;http://localhost:8080/WebSortingAlgorithms_war/&quot;&#10;&#10;  }&#10;}" />
+                  </variablesState>
+                </option>
+              </folderState>
+            </list>
+          </option>
+          <option name="id" value="09e6b839-fb75-4929-9ad1-15f0d1a49e1e" />
+          <option name="name" value="WebSorting" />
+          <option name="selectedEnvironmentIds">
+            <map>
+              <entry key="default" />
+            </map>
+          </option>
+          <option name="syncProperties">
+            <synchronizationPropertiesState>
+              <option name="autoSync" value="true" />
+              <option name="folderPath" value="C:\Users\RoseOtukuoTetteh\Documents\Java Labs\Testing\.jetclient" />
+            </synchronizationPropertiesState>
+          </option>
+          <option name="variables">
+            <variablesState>
+              <option name="json" value="{&#10;  globals: {&#10;    baseUrl:&quot;http://localhost:8080/WebSortingAlgorithms_war/&quot;&#10;&#10;  }&#10;}" />
+            </variablesState>
+          </option>
+        </folderState>
+      </list>
+    </option>
+    <option name="id" value="674d5507-95ca-48c7-8e9b-dd02bb162377" />
+    <option name="version" value="4" />
+  </component>
+</project>

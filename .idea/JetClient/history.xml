@@ -1,0 +1,1353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="History">
+    <option name="requestHistoryStates">
+      <list>
+        <requestHistoryState>
+          <option name="dateTime" value="1733157500133" />
+          <option name="id" value="d0412f56-a694-43ba-865f-5a453ad2c431" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;algorithm&quot;: &quot;quickSort&quot;,&#10;  &quot;data&quot;: [5, 2, 9, 1, 3]&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="e126fe85-7c74-4bbd-8ae2-f2514266feca" />
+              <option name="method" value="POST" />
+              <option name="name" value="New Request" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="{{baseUrl}}api/v1/sort" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="PCFkb2N0eXBlIGh0bWw+PGh0bWwgbGFuZz0iZW4iPjxoZWFkPjx0aXRsZT5IVFRQIFN0YXR1cyA0MDQg4oCTIE5vdCBGb3VuZDwvdGl0bGU+PHN0eWxlIHR5cGU9InRleHQvY3NzIj5ib2R5IHtmb250LWZhbWlseTpUYWhvbWEsQXJpYWwsc2Fucy1zZXJpZjt9IGgxLCBoMiwgaDMsIGIge2NvbG9yOndoaXRlO2JhY2tncm91bmQtY29sb3I6IzUyNUQ3Njt9IGgxIHtmb250LXNpemU6MjJweDt9IGgyIHtmb250LXNpemU6MTZweDt9IGgzIHtmb250LXNpemU6MTRweDt9IHAge2ZvbnQtc2l6ZToxMnB4O30gYSB7Y29sb3I6YmxhY2s7fSAubGluZSB7aGVpZ2h0OjFweDtiYWNrZ3JvdW5kLWNvbG9yOiM1MjVENzY7Ym9yZGVyOm5vbmU7fTwvc3R5bGU+PC9oZWFkPjxib2R5PjxoMT5IVFRQIFN0YXR1cyA0MDQg4oCTIE5vdCBGb3VuZDwvaDE+PGhyIGNsYXNzPSJsaW5lIiAvPjxwPjxiPlR5cGU8L2I+IFN0YXR1cyBSZXBvcnQ8L3A+PHA+PGI+RGVzY3JpcHRpb248L2I+IFRoZSBvcmlnaW4gc2VydmVyIGRpZCBub3QgZmluZCBhIGN1cnJlbnQgcmVwcmVzZW50YXRpb24gZm9yIHRoZSB0YXJnZXQgcmVzb3VyY2Ugb3IgaXMgbm90IHdpbGxpbmcgdG8gZGlzY2xvc2UgdGhhdCBvbmUgZXhpc3RzLjwvcD48aHIgY2xhc3M9ImxpbmUiIC8+PGgzPkFwYWNoZSBUb21jYXQvMTEuMC4xPC9oMz48L2JvZHk+PC9odG1sPg==" />
+              <option name="bodyString" value="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;title&gt;HTTP Status 404 – Not Found&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status 404 – Not Found&lt;/h1&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;p&gt;&lt;b&gt;Type&lt;/b&gt; Status Report&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description&lt;/b&gt; The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.&lt;/p&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;h3&gt;Apache Tomcat/11.0.1&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="code" value="404" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html;charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Language" />
+                    <option name="value" value="en" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="682" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 02 Dec 2024 16:38:20 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=20" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="d0412f56-a694-43ba-865f-5a453ad2c431" />
+              <option name="message" value="Not Found" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;title&gt;HTTP Status 404 – Not Found&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status 404 – Not Found&lt;/h1&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;p&gt;&lt;b&gt;Type&lt;/b&gt; Status Report&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description&lt;/b&gt; The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.&lt;/p&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;h3&gt;Apache Tomcat/11.0.1&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="size" value="682" />
+              <option name="time" value="2" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="09e6b839-fb75-4929-9ad1-15f0d1a49e1e" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1733157831774" />
+          <option name="id" value="43a94ede-0723-4851-bdeb-b72f97f55af6" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="e126fe85-7c74-4bbd-8ae2-f2514266feca" />
+              <option name="method" value="GET" />
+              <option name="name" value="New Request" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="{{baseUrl}}api/v1/try" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="PCFkb2N0eXBlIGh0bWw+PGh0bWwgbGFuZz0iZW4iPjxoZWFkPjx0aXRsZT5IVFRQIFN0YXR1cyA0MDQg4oCTIE5vdCBGb3VuZDwvdGl0bGU+PHN0eWxlIHR5cGU9InRleHQvY3NzIj5ib2R5IHtmb250LWZhbWlseTpUYWhvbWEsQXJpYWwsc2Fucy1zZXJpZjt9IGgxLCBoMiwgaDMsIGIge2NvbG9yOndoaXRlO2JhY2tncm91bmQtY29sb3I6IzUyNUQ3Njt9IGgxIHtmb250LXNpemU6MjJweDt9IGgyIHtmb250LXNpemU6MTZweDt9IGgzIHtmb250LXNpemU6MTRweDt9IHAge2ZvbnQtc2l6ZToxMnB4O30gYSB7Y29sb3I6YmxhY2s7fSAubGluZSB7aGVpZ2h0OjFweDtiYWNrZ3JvdW5kLWNvbG9yOiM1MjVENzY7Ym9yZGVyOm5vbmU7fTwvc3R5bGU+PC9oZWFkPjxib2R5PjxoMT5IVFRQIFN0YXR1cyA0MDQg4oCTIE5vdCBGb3VuZDwvaDE+PGhyIGNsYXNzPSJsaW5lIiAvPjxwPjxiPlR5cGU8L2I+IFN0YXR1cyBSZXBvcnQ8L3A+PHA+PGI+RGVzY3JpcHRpb248L2I+IFRoZSBvcmlnaW4gc2VydmVyIGRpZCBub3QgZmluZCBhIGN1cnJlbnQgcmVwcmVzZW50YXRpb24gZm9yIHRoZSB0YXJnZXQgcmVzb3VyY2Ugb3IgaXMgbm90IHdpbGxpbmcgdG8gZGlzY2xvc2UgdGhhdCBvbmUgZXhpc3RzLjwvcD48aHIgY2xhc3M9ImxpbmUiIC8+PGgzPkFwYWNoZSBUb21jYXQvMTEuMC4xPC9oMz48L2JvZHk+PC9odG1sPg==" />
+              <option name="bodyString" value="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;title&gt;HTTP Status 404 – Not Found&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status 404 – Not Found&lt;/h1&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;p&gt;&lt;b&gt;Type&lt;/b&gt; Status Report&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description&lt;/b&gt; The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.&lt;/p&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;h3&gt;Apache Tomcat/11.0.1&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="code" value="404" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html;charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Language" />
+                    <option name="value" value="en" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="682" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 02 Dec 2024 16:43:51 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=20" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="43a94ede-0723-4851-bdeb-b72f97f55af6" />
+              <option name="message" value="Not Found" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;title&gt;HTTP Status 404 – Not Found&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status 404 – Not Found&lt;/h1&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;p&gt;&lt;b&gt;Type&lt;/b&gt; Status Report&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description&lt;/b&gt; The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.&lt;/p&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;h3&gt;Apache Tomcat/11.0.1&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="size" value="682" />
+              <option name="time" value="2" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="09e6b839-fb75-4929-9ad1-15f0d1a49e1e" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1733157840056" />
+          <option name="id" value="07a796c1-4af0-44bb-be4f-8e9f1b5d8a9e" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="e126fe85-7c74-4bbd-8ae2-f2514266feca" />
+              <option name="method" value="GET" />
+              <option name="name" value="New Request" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="{{baseUrl}}api/v1/try" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="PCFkb2N0eXBlIGh0bWw+PGh0bWwgbGFuZz0iZW4iPjxoZWFkPjx0aXRsZT5IVFRQIFN0YXR1cyA0MDQg4oCTIE5vdCBGb3VuZDwvdGl0bGU+PHN0eWxlIHR5cGU9InRleHQvY3NzIj5ib2R5IHtmb250LWZhbWlseTpUYWhvbWEsQXJpYWwsc2Fucy1zZXJpZjt9IGgxLCBoMiwgaDMsIGIge2NvbG9yOndoaXRlO2JhY2tncm91bmQtY29sb3I6IzUyNUQ3Njt9IGgxIHtmb250LXNpemU6MjJweDt9IGgyIHtmb250LXNpemU6MTZweDt9IGgzIHtmb250LXNpemU6MTRweDt9IHAge2ZvbnQtc2l6ZToxMnB4O30gYSB7Y29sb3I6YmxhY2s7fSAubGluZSB7aGVpZ2h0OjFweDtiYWNrZ3JvdW5kLWNvbG9yOiM1MjVENzY7Ym9yZGVyOm5vbmU7fTwvc3R5bGU+PC9oZWFkPjxib2R5PjxoMT5IVFRQIFN0YXR1cyA0MDQg4oCTIE5vdCBGb3VuZDwvaDE+PGhyIGNsYXNzPSJsaW5lIiAvPjxwPjxiPlR5cGU8L2I+IFN0YXR1cyBSZXBvcnQ8L3A+PHA+PGI+RGVzY3JpcHRpb248L2I+IFRoZSBvcmlnaW4gc2VydmVyIGRpZCBub3QgZmluZCBhIGN1cnJlbnQgcmVwcmVzZW50YXRpb24gZm9yIHRoZSB0YXJnZXQgcmVzb3VyY2Ugb3IgaXMgbm90IHdpbGxpbmcgdG8gZGlzY2xvc2UgdGhhdCBvbmUgZXhpc3RzLjwvcD48aHIgY2xhc3M9ImxpbmUiIC8+PGgzPkFwYWNoZSBUb21jYXQvMTEuMC4xPC9oMz48L2JvZHk+PC9odG1sPg==" />
+              <option name="bodyString" value="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;title&gt;HTTP Status 404 – Not Found&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status 404 – Not Found&lt;/h1&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;p&gt;&lt;b&gt;Type&lt;/b&gt; Status Report&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description&lt;/b&gt; The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.&lt;/p&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;h3&gt;Apache Tomcat/11.0.1&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="code" value="404" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html;charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Language" />
+                    <option name="value" value="en" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="682" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 02 Dec 2024 16:44:00 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=20" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="07a796c1-4af0-44bb-be4f-8e9f1b5d8a9e" />
+              <option name="message" value="Not Found" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;title&gt;HTTP Status 404 – Not Found&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status 404 – Not Found&lt;/h1&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;p&gt;&lt;b&gt;Type&lt;/b&gt; Status Report&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description&lt;/b&gt; The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.&lt;/p&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;h3&gt;Apache Tomcat/11.0.1&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="size" value="682" />
+              <option name="time" value="4" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="09e6b839-fb75-4929-9ad1-15f0d1a49e1e" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1733157871967" />
+          <option name="id" value="1ecb69e7-b3c1-4155-b884-e069a6c66f36" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="e126fe85-7c74-4bbd-8ae2-f2514266feca" />
+              <option name="method" value="GET" />
+              <option name="name" value="New Request" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://localhost:8080/WebSortingAlgorithm_war/api/v1/tryy" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="RG9uZQ==" />
+              <option name="bodyString" value="Done" />
+              <option name="code" value="200" />
+              <option name="contentType" value="text/plain; charset=ISO-8859-1" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/plain;charset=ISO-8859-1" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="4" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 02 Dec 2024 16:44:31 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=20" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="1ecb69e7-b3c1-4155-b884-e069a6c66f36" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="TEXT" />
+              <option name="rawBodyString" value="Done" />
+              <option name="size" value="4" />
+              <option name="time" value="10" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="09e6b839-fb75-4929-9ad1-15f0d1a49e1e" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1733157908585" />
+          <option name="id" value="04b28d49-f55c-4f46-89bd-53f46afac00e" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;algorithm&quot;: &quot;quickSort&quot;,&#10;  &quot;data&quot;: [5, 2, 9, 1, 3]&#10;}&#10;" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="e126fe85-7c74-4bbd-8ae2-f2514266feca" />
+              <option name="method" value="POST" />
+              <option name="name" value="New Request" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://localhost:8080/WebSortingAlgorithm_war/api/v1/sort" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="PCFkb2N0eXBlIGh0bWw+PGh0bWwgbGFuZz0iZW4iPjxoZWFkPjx0aXRsZT5IVFRQIFN0YXR1cyA1MDAg4oCTIEludGVybmFsIFNlcnZlciBFcnJvcjwvdGl0bGU+PHN0eWxlIHR5cGU9InRleHQvY3NzIj5ib2R5IHtmb250LWZhbWlseTpUYWhvbWEsQXJpYWwsc2Fucy1zZXJpZjt9IGgxLCBoMiwgaDMsIGIge2NvbG9yOndoaXRlO2JhY2tncm91bmQtY29sb3I6IzUyNUQ3Njt9IGgxIHtmb250LXNpemU6MjJweDt9IGgyIHtmb250LXNpemU6MTZweDt9IGgzIHtmb250LXNpemU6MTRweDt9IHAge2ZvbnQtc2l6ZToxMnB4O30gYSB7Y29sb3I6YmxhY2s7fSAubGluZSB7aGVpZ2h0OjFweDtiYWNrZ3JvdW5kLWNvbG9yOiM1MjVENzY7Ym9yZGVyOm5vbmU7fTwvc3R5bGU+PC9oZWFkPjxib2R5PjxoMT5IVFRQIFN0YXR1cyA1MDAg4oCTIEludGVybmFsIFNlcnZlciBFcnJvcjwvaDE+PGhyIGNsYXNzPSJsaW5lIiAvPjxwPjxiPlR5cGU8L2I+IEV4Y2VwdGlvbiBSZXBvcnQ8L3A+PHA+PGI+TWVzc2FnZTwvYj4gUmVxdWVzdCBwcm9jZXNzaW5nIGZhaWxlZDogamF2YS5sYW5nLk51bGxQb2ludGVyRXhjZXB0aW9uOiBDYW5ub3QgaW52b2tlICZxdW90O2NvbS5yb3NzaWUud2Vic29ydGluZ2FsZ29yaXRobS5zZXJ2aWNlLkRhdGFTZXJ2aWNlLnNvcnQoU3RyaW5nLCBqYXZhLnV0aWwuTGlzdCkmcXVvdDsgYmVjYXVzZSAmcXVvdDt0aGlzLnNvcnRpbmdTZXJ2aWNlJnF1b3Q7IGlzIG51bGw8L3A+PHA+PGI+RGVzY3JpcHRpb248L2I+IFRoZSBzZXJ2ZXIgZW5jb3VudGVyZWQgYW4gdW5leHBlY3RlZCBjb25kaXRpb24gdGhhdCBwcmV2ZW50ZWQgaXQgZnJvbSBmdWxmaWxsaW5nIHRoZSByZXF1ZXN0LjwvcD48cD48Yj5FeGNlcHRpb248L2I+PC9wPjxwcmU+amFrYXJ0YS5zZXJ2bGV0LlNlcnZsZXRFeGNlcHRpb246IFJlcXVlc3QgcHJvY2Vzc2luZyBmYWlsZWQ6IGphdmEubGFuZy5OdWxsUG9pbnRlckV4Y2VwdGlvbjogQ2Fubm90IGludm9rZSAmcXVvdDtjb20ucm9zc2llLndlYnNvcnRpbmdhbGdvcml0aG0uc2VydmljZS5EYXRhU2VydmljZS5zb3J0KFN0cmluZywgamF2YS51dGlsLkxpc3QpJnF1b3Q7IGJlY2F1c2UgJnF1b3Q7dGhpcy5zb3J0aW5nU2VydmljZSZxdW90OyBpcyBudWxsDQoJb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuc2VydmxldC5GcmFtZXdvcmtTZXJ2bGV0LnByb2Nlc3NSZXF1ZXN0KEZyYW1ld29ya1NlcnZsZXQuamF2YToxMDIyKQ0KCW9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQuRnJhbWV3b3JrU2VydmxldC5kb1Bvc3QoRnJhbWV3b3JrU2VydmxldC5qYXZhOjkxNCkNCglqYWthcnRhLnNlcnZsZXQuaHR0cC5IdHRwU2VydmxldC5zZXJ2aWNlKEh0dHBTZXJ2bGV0LmphdmE6NjQ1KQ0KCW9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQuRnJhbWV3b3JrU2VydmxldC5zZXJ2aWNlKEZyYW1ld29ya1NlcnZsZXQuamF2YTo4ODUpDQoJamFrYXJ0YS5zZXJ2bGV0Lmh0dHAuSHR0cFNlcnZsZXQuc2VydmljZShIdHRwU2VydmxldC5qYXZhOjcxNikNCglvcmcuYXBhY2hlLnRvbWNhdC53ZWJzb2NrZXQuc2VydmVyLldzRmlsdGVyLmRvRmlsdGVyKFdzRmlsdGVyLmphdmE6NTEpDQoJb3JnLmFwYWNoZS5jYXRhbGluYS5hdXRoZW50aWNhdG9yLkF1dGhlbnRpY2F0b3JCYXNlLmludm9rZShBdXRoZW50aWNhdG9yQmFzZS5qYXZhOjQ4MykNCglvcmcuYXBhY2hlLmNhdGFsaW5hLnZhbHZlcy5FcnJvclJlcG9ydFZhbHZlLmludm9rZShFcnJvclJlcG9ydFZhbHZlLmphdmE6OTMpDQoJb3JnLmFwYWNoZS5jYXRhbGluYS52YWx2ZXMuQWJzdHJhY3RBY2Nlc3NMb2dWYWx2ZS5pbnZva2UoQWJzdHJhY3RBY2Nlc3NMb2dWYWx2ZS5qYXZhOjY2MykNCglvcmcuYXBhY2hlLmNhdGFsaW5hLmNvbm5lY3Rvci5Db3lvdGVBZGFwdGVyLnNlcnZpY2UoQ295b3RlQWRhcHRlci5qYXZhOjM0MikNCglvcmcuYXBhY2hlLmNveW90ZS5odHRwMTEuSHR0cDExUHJvY2Vzc29yLnNlcnZpY2UoSHR0cDExUHJvY2Vzc29yLmphdmE6Mzk1KQ0KCW9yZy5hcGFjaGUuY295b3RlLkFic3RyYWN0UHJvY2Vzc29yTGlnaHQucHJvY2VzcyhBYnN0cmFjdFByb2Nlc3NvckxpZ2h0LmphdmE6NjMpDQoJb3JnLmFwYWNoZS5jb3lvdGUuQWJzdHJhY3RQcm90b2NvbCRDb25uZWN0aW9uSGFuZGxlci5wcm9jZXNzKEFic3RyYWN0UHJvdG9jb2wuamF2YTo5MDUpDQoJb3JnLmFwYWNoZS50b21jYXQudXRpbC5uZXQuTmlvRW5kcG9pbnQkU29ja2V0UHJvY2Vzc29yLmRvUnVuKE5pb0VuZHBvaW50LmphdmE6MTc0NikNCglvcmcuYXBhY2hlLnRvbWNhdC51dGlsLm5ldC5Tb2NrZXRQcm9jZXNzb3JCYXNlLnJ1bihTb2NrZXRQcm9jZXNzb3JCYXNlLmphdmE6NTIpDQoJb3JnLmFwYWNoZS50b21jYXQudXRpbC50aHJlYWRzLlRocmVhZFBvb2xFeGVjdXRvci5ydW5Xb3JrZXIoVGhyZWFkUG9vbEV4ZWN1dG9yLmphdmE6MTE0OCkNCglvcmcuYXBhY2hlLnRvbWNhdC51dGlsLnRocmVhZHMuVGhyZWFkUG9vbEV4ZWN1dG9yJFdvcmtlci5ydW4oVGhyZWFkUG9vbEV4ZWN1dG9yLmphdmE6NjM2KQ0KCW9yZy5hcGFjaGUudG9tY2F0LnV0aWwudGhyZWFkcy5UYXNrVGhyZWFkJFdyYXBwaW5nUnVubmFibGUucnVuKFRhc2tUaHJlYWQuamF2YTo2MykNCglqYXZhLmJhc2UmIzQ3O2phdmEubGFuZy5UaHJlYWQucnVuKFRocmVhZC5qYXZhOjE1ODMpDQo8L3ByZT48cD48Yj5Sb290IENhdXNlPC9iPjwvcD48cHJlPmphdmEubGFuZy5OdWxsUG9pbnRlckV4Y2VwdGlvbjogQ2Fubm90IGludm9rZSAmcXVvdDtjb20ucm9zc2llLndlYnNvcnRpbmdhbGdvcml0aG0uc2VydmljZS5EYXRhU2VydmljZS5zb3J0KFN0cmluZywgamF2YS51dGlsLkxpc3QpJnF1b3Q7IGJlY2F1c2UgJnF1b3Q7dGhpcy5zb3J0aW5nU2VydmljZSZxdW90OyBpcyBudWxsDQoJY29tLnJvc3NpZS53ZWJzb3J0aW5nYWxnb3JpdGhtLmNvbnRyb2xsZXIuQ29udHJvbGxlci5zb3J0RGF0YShDb250cm9sbGVyLmphdmE6MjIpDQoJamF2YS5iYXNlJiM0NztqZGsuaW50ZXJuYWwucmVmbGVjdC5EaXJlY3RNZXRob2RIYW5kbGVBY2Nlc3Nvci5pbnZva2UoRGlyZWN0TWV0aG9kSGFuZGxlQWNjZXNzb3IuamF2YToxMDMpDQoJamF2YS5iYXNlJiM0NztqYXZhLmxhbmcucmVmbGVjdC5NZXRob2QuaW52b2tlKE1ldGhvZC5qYXZhOjU4MCkNCglvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5tZXRob2Quc3VwcG9ydC5JbnZvY2FibGVIYW5kbGVyTWV0aG9kLmRvSW52b2tlKEludm9jYWJsZUhhbmRsZXJNZXRob2QuamF2YToyNTUpDQoJb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIubWV0aG9kLnN1cHBvcnQuSW52b2NhYmxlSGFuZGxlck1ldGhvZC5pbnZva2VGb3JSZXF1ZXN0KEludm9jYWJsZUhhbmRsZXJNZXRob2QuamF2YToxODgpDQoJb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuc2VydmxldC5tdmMubWV0aG9kLmFubm90YXRpb24uU2VydmxldEludm9jYWJsZUhhbmRsZXJNZXRob2QuaW52b2tlQW5kSGFuZGxlKFNlcnZsZXRJbnZvY2FibGVIYW5kbGVyTWV0aG9kLmphdmE6MTE4KQ0KCW9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQubXZjLm1ldGhvZC5hbm5vdGF0aW9uLlJlcXVlc3RNYXBwaW5nSGFuZGxlckFkYXB0ZXIuaW52b2tlSGFuZGxlck1ldGhvZChSZXF1ZXN0TWFwcGluZ0hhbmRsZXJBZGFwdGVyLmphdmE6OTg2KQ0KCW9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQubXZjLm1ldGhvZC5hbm5vdGF0aW9uLlJlcXVlc3RNYXBwaW5nSGFuZGxlckFkYXB0ZXIuaGFuZGxlSW50ZXJuYWwoUmVxdWVzdE1hcHBpbmdIYW5kbGVyQWRhcHRlci5qYXZhOjg5MSkNCglvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5zZXJ2bGV0Lm12Yy5tZXRob2QuQWJzdHJhY3RIYW5kbGVyTWV0aG9kQWRhcHRlci5oYW5kbGUoQWJzdHJhY3RIYW5kbGVyTWV0aG9kQWRhcHRlci5qYXZhOjg3KQ0KCW9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQuRGlzcGF0Y2hlclNlcnZsZXQuZG9EaXNwYXRjaChEaXNwYXRjaGVyU2VydmxldC5qYXZhOjEwODgpDQoJb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuc2VydmxldC5EaXNwYXRjaGVyU2VydmxldC5kb1NlcnZpY2UoRGlzcGF0Y2hlclNlcnZsZXQuamF2YTo5NzgpDQoJb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuc2VydmxldC5GcmFtZXdvcmtTZXJ2bGV0LnByb2Nlc3NSZXF1ZXN0KEZyYW1ld29ya1NlcnZsZXQuamF2YToxMDE0KQ0KCW9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQuRnJhbWV3b3JrU2VydmxldC5kb1Bvc3QoRnJhbWV3b3JrU2VydmxldC5qYXZhOjkxNCkNCglqYWthcnRhLnNlcnZsZXQuaHR0cC5IdHRwU2VydmxldC5zZXJ2aWNlKEh0dHBTZXJ2bGV0LmphdmE6NjQ1KQ0KCW9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQuRnJhbWV3b3JrU2VydmxldC5zZXJ2aWNlKEZyYW1ld29ya1NlcnZsZXQuamF2YTo4ODUpDQoJamFrYXJ0YS5zZXJ2bGV0Lmh0dHAuSHR0cFNlcnZsZXQuc2VydmljZShIdHRwU2VydmxldC5qYXZhOjcxNikNCglvcmcuYXBhY2hlLnRvbWNhdC53ZWJzb2NrZXQuc2VydmVyLldzRmlsdGVyLmRvRmlsdGVyKFdzRmlsdGVyLmphdmE6NTEpDQoJb3JnLmFwYWNoZS5jYXRhbGluYS5hdXRoZW50aWNhdG9yLkF1dGhlbnRpY2F0b3JCYXNlLmludm9rZShBdXRoZW50aWNhdG9yQmFzZS5qYXZhOjQ4MykNCglvcmcuYXBhY2hlLmNhdGFsaW5hLnZhbHZlcy5FcnJvclJlcG9ydFZhbHZlLmludm9rZShFcnJvclJlcG9ydFZhbHZlLmphdmE6OTMpDQoJb3JnLmFwYWNoZS5jYXRhbGluYS52YWx2ZXMuQWJzdHJhY3RBY2Nlc3NMb2dWYWx2ZS5pbnZva2UoQWJzdHJhY3RBY2Nlc3NMb2dWYWx2ZS5qYXZhOjY2MykNCglvcmcuYXBhY2hlLmNhdGFsaW5hLmNvbm5lY3Rvci5Db3lvdGVBZGFwdGVyLnNlcnZpY2UoQ295b3RlQWRhcHRlci5qYXZhOjM0MikNCglvcmcuYXBhY2hlLmNveW90ZS5odHRwMTEuSHR0cDExUHJvY2Vzc29yLnNlcnZpY2UoSHR0cDExUHJvY2Vzc29yLmphdmE6Mzk1KQ0KCW9yZy5hcGFjaGUuY295b3RlLkFic3RyYWN0UHJvY2Vzc29yTGlnaHQucHJvY2VzcyhBYnN0cmFjdFByb2Nlc3NvckxpZ2h0LmphdmE6NjMpDQoJb3JnLmFwYWNoZS5jb3lvdGUuQWJzdHJhY3RQcm90b2NvbCRDb25uZWN0aW9uSGFuZGxlci5wcm9jZXNzKEFic3RyYWN0UHJvdG9jb2wuamF2YTo5MDUpDQoJb3JnLmFwYWNoZS50b21jYXQudXRpbC5uZXQuTmlvRW5kcG9pbnQkU29ja2V0UHJvY2Vzc29yLmRvUnVuKE5pb0VuZHBvaW50LmphdmE6MTc0NikNCglvcmcuYXBhY2hlLnRvbWNhdC51dGlsLm5ldC5Tb2NrZXRQcm9jZXNzb3JCYXNlLnJ1bihTb2NrZXRQcm9jZXNzb3JCYXNlLmphdmE6NTIpDQoJb3JnLmFwYWNoZS50b21jYXQudXRpbC50aHJlYWRzLlRocmVhZFBvb2xFeGVjdXRvci5ydW5Xb3JrZXIoVGhyZWFkUG9vbEV4ZWN1dG9yLmphdmE6MTE0OCkNCglvcmcuYXBhY2hlLnRvbWNhdC51dGlsLnRocmVhZHMuVGhyZWFkUG9vbEV4ZWN1dG9yJFdvcmtlci5ydW4oVGhyZWFkUG9vbEV4ZWN1dG9yLmphdmE6NjM2KQ0KCW9yZy5hcGFjaGUudG9tY2F0LnV0aWwudGhyZWFkcy5UYXNrVGhyZWFkJFdyYXBwaW5nUnVubmFibGUucnVuKFRhc2tUaHJlYWQuamF2YTo2MykNCglqYXZhLmJhc2UmIzQ3O2phdmEubGFuZy5UaHJlYWQucnVuKFRocmVhZC5qYXZhOjE1ODMpDQo8L3ByZT48cD48Yj5Ob3RlPC9iPiBUaGUgZnVsbCBzdGFjayB0cmFjZSBvZiB0aGUgcm9vdCBjYXVzZSBpcyBhdmFpbGFibGUgaW4gdGhlIHNlcnZlciBsb2dzLjwvcD48aHIgY2xhc3M9ImxpbmUiIC8+PGgzPkFwYWNoZSBUb21jYXQvMTEuMC4xPC9oMz48L2JvZHk+PC9odG1sPg==" />
+              <option name="bodyString" value="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;title&gt;HTTP Status 500 – Internal Server Error&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status 500 – Internal Server Error&lt;/h1&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;p&gt;&lt;b&gt;Type&lt;/b&gt; Exception Report&lt;/p&gt;&lt;p&gt;&lt;b&gt;Message&lt;/b&gt; Request processing failed: java.lang.NullPointerException: Cannot invoke &amp;quot;com.rossie.websortingalgorithm.service.DataService.sort(String, java.util.List)&amp;quot; because &amp;quot;this.sortingService&amp;quot; is null&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description&lt;/b&gt; The server encountered an unexpected condition that prevented it from fulfilling the request.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Exception&lt;/b&gt;&lt;/p&gt;&lt;pre&gt;jakarta.servlet.ServletException: Request processing failed: java.lang.NullPointerException: Cannot invoke &amp;quot;com.rossie.websortingalgorithm.service.DataService.sort(String, java.util.List)&amp;quot; because &amp;quot;this.sortingService&amp;quot; is null&#10;&#9;org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1022)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)&#10;&#9;jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)&#10;&#9;jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)&#10;&#9;org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)&#10;&#9;org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)&#10;&#9;org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)&#10;&#9;org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)&#10;&#9;org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)&#10;&#9;org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:395)&#10;&#9;org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)&#10;&#9;org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)&#10;&#9;org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)&#10;&#9;org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)&#10;&#9;org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)&#10;&#9;org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)&#10;&#9;org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)&#10;&#9;java.base&amp;#47;java.lang.Thread.run(Thread.java:1583)&#10;&lt;/pre&gt;&lt;p&gt;&lt;b&gt;Root Cause&lt;/b&gt;&lt;/p&gt;&lt;pre&gt;java.lang.NullPointerException: Cannot invoke &amp;quot;com.rossie.websortingalgorithm.service.DataService.sort(String, java.util.List)&amp;quot; because &amp;quot;this.sortingService&amp;quot; is null&#10;&#9;com.rossie.websortingalgorithm.controller.Controller.sortData(Controller.java:22)&#10;&#9;java.base&amp;#47;jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#10;&#9;java.base&amp;#47;java.lang.reflect.Method.invoke(Method.java:580)&#10;&#9;org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)&#10;&#9;org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)&#10;&#9;org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)&#10;&#9;org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)&#10;&#9;org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)&#10;&#9;org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)&#10;&#9;org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)&#10;&#9;org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)&#10;&#9;jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)&#10;&#9;jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)&#10;&#9;org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)&#10;&#9;org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)&#10;&#9;org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)&#10;&#9;org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)&#10;&#9;org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)&#10;&#9;org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:395)&#10;&#9;org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)&#10;&#9;org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)&#10;&#9;org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)&#10;&#9;org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)&#10;&#9;org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)&#10;&#9;org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)&#10;&#9;org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)&#10;&#9;java.base&amp;#47;java.lang.Thread.run(Thread.java:1583)&#10;&lt;/pre&gt;&lt;p&gt;&lt;b&gt;Note&lt;/b&gt; The full stack trace of the root cause is available in the server logs.&lt;/p&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;h3&gt;Apache Tomcat/11.0.1&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="code" value="500" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html;charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Language" />
+                    <option name="value" value="en" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="5803" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 02 Dec 2024 16:45:08 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="close" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="04b28d49-f55c-4f46-89bd-53f46afac00e" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;title&gt;HTTP Status 500 – Internal Server Error&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status 500 – Internal Server Error&lt;/h1&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;p&gt;&lt;b&gt;Type&lt;/b&gt; Exception Report&lt;/p&gt;&lt;p&gt;&lt;b&gt;Message&lt;/b&gt; Request processing failed: java.lang.NullPointerException: Cannot invoke &amp;quot;com.rossie.websortingalgorithm.service.DataService.sort(String, java.util.List)&amp;quot; because &amp;quot;this.sortingService&amp;quot; is null&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description&lt;/b&gt; The server encountered an unexpected condition that prevented it from fulfilling the request.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Exception&lt;/b&gt;&lt;/p&gt;&lt;pre&gt;jakarta.servlet.ServletException: Request processing failed: java.lang.NullPointerException: Cannot invoke &amp;quot;com.rossie.websortingalgorithm.service.DataService.sort(String, java.util.List)&amp;quot; because &amp;quot;this.sortingService&amp;quot; is null&#10;&#9;org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1022)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)&#10;&#9;jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)&#10;&#9;jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)&#10;&#9;org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)&#10;&#9;org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)&#10;&#9;org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)&#10;&#9;org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)&#10;&#9;org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)&#10;&#9;org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:395)&#10;&#9;org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)&#10;&#9;org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)&#10;&#9;org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)&#10;&#9;org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)&#10;&#9;org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)&#10;&#9;org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)&#10;&#9;org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)&#10;&#9;java.base&amp;#47;java.lang.Thread.run(Thread.java:1583)&#10;&lt;/pre&gt;&lt;p&gt;&lt;b&gt;Root Cause&lt;/b&gt;&lt;/p&gt;&lt;pre&gt;java.lang.NullPointerException: Cannot invoke &amp;quot;com.rossie.websortingalgorithm.service.DataService.sort(String, java.util.List)&amp;quot; because &amp;quot;this.sortingService&amp;quot; is null&#10;&#9;com.rossie.websortingalgorithm.controller.Controller.sortData(Controller.java:22)&#10;&#9;java.base&amp;#47;jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#10;&#9;java.base&amp;#47;java.lang.reflect.Method.invoke(Method.java:580)&#10;&#9;org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)&#10;&#9;org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)&#10;&#9;org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)&#10;&#9;org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)&#10;&#9;org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)&#10;&#9;org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)&#10;&#9;org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)&#10;&#9;org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)&#10;&#9;jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)&#10;&#9;jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)&#10;&#9;org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)&#10;&#9;org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)&#10;&#9;org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)&#10;&#9;org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)&#10;&#9;org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)&#10;&#9;org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:395)&#10;&#9;org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)&#10;&#9;org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)&#10;&#9;org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)&#10;&#9;org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)&#10;&#9;org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)&#10;&#9;org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)&#10;&#9;org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)&#10;&#9;java.base&amp;#47;java.lang.Thread.run(Thread.java:1583)&#10;&lt;/pre&gt;&lt;p&gt;&lt;b&gt;Note&lt;/b&gt; The full stack trace of the root cause is available in the server logs.&lt;/p&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;h3&gt;Apache Tomcat/11.0.1&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="size" value="5803" />
+              <option name="time" value="166" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="09e6b839-fb75-4929-9ad1-15f0d1a49e1e" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1733158001153" />
+          <option name="id" value="dced7116-40c8-4593-8070-87b5c4e62810" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;algorithm&quot;: &quot;quickSort&quot;,&#10;  &quot;data&quot;: [5, 2, 9, 1, 3]&#10;}&#10;" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="e126fe85-7c74-4bbd-8ae2-f2514266feca" />
+              <option name="method" value="POST" />
+              <option name="name" value="New Request" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://localhost:8080/WebSortingAlgorithm_war/api/v1/sort" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="PCFkb2N0eXBlIGh0bWw+PGh0bWwgbGFuZz0iZW4iPjxoZWFkPjx0aXRsZT5IVFRQIFN0YXR1cyA1MDAg4oCTIEludGVybmFsIFNlcnZlciBFcnJvcjwvdGl0bGU+PHN0eWxlIHR5cGU9InRleHQvY3NzIj5ib2R5IHtmb250LWZhbWlseTpUYWhvbWEsQXJpYWwsc2Fucy1zZXJpZjt9IGgxLCBoMiwgaDMsIGIge2NvbG9yOndoaXRlO2JhY2tncm91bmQtY29sb3I6IzUyNUQ3Njt9IGgxIHtmb250LXNpemU6MjJweDt9IGgyIHtmb250LXNpemU6MTZweDt9IGgzIHtmb250LXNpemU6MTRweDt9IHAge2ZvbnQtc2l6ZToxMnB4O30gYSB7Y29sb3I6YmxhY2s7fSAubGluZSB7aGVpZ2h0OjFweDtiYWNrZ3JvdW5kLWNvbG9yOiM1MjVENzY7Ym9yZGVyOm5vbmU7fTwvc3R5bGU+PC9oZWFkPjxib2R5PjxoMT5IVFRQIFN0YXR1cyA1MDAg4oCTIEludGVybmFsIFNlcnZlciBFcnJvcjwvaDE+PGhyIGNsYXNzPSJsaW5lIiAvPjxwPjxiPlR5cGU8L2I+IEV4Y2VwdGlvbiBSZXBvcnQ8L3A+PHA+PGI+TWVzc2FnZTwvYj4gUmVxdWVzdCBwcm9jZXNzaW5nIGZhaWxlZDogamF2YS5sYW5nLk51bGxQb2ludGVyRXhjZXB0aW9uOiBDYW5ub3QgaW52b2tlICZxdW90O2NvbS5yb3NzaWUud2Vic29ydGluZ2FsZ29yaXRobS5zZXJ2aWNlLkRhdGFTZXJ2aWNlLnNvcnQoU3RyaW5nLCBqYXZhLnV0aWwuTGlzdCkmcXVvdDsgYmVjYXVzZSAmcXVvdDt0aGlzLnNvcnRpbmdTZXJ2aWNlJnF1b3Q7IGlzIG51bGw8L3A+PHA+PGI+RGVzY3JpcHRpb248L2I+IFRoZSBzZXJ2ZXIgZW5jb3VudGVyZWQgYW4gdW5leHBlY3RlZCBjb25kaXRpb24gdGhhdCBwcmV2ZW50ZWQgaXQgZnJvbSBmdWxmaWxsaW5nIHRoZSByZXF1ZXN0LjwvcD48cD48Yj5FeGNlcHRpb248L2I+PC9wPjxwcmU+amFrYXJ0YS5zZXJ2bGV0LlNlcnZsZXRFeGNlcHRpb246IFJlcXVlc3QgcHJvY2Vzc2luZyBmYWlsZWQ6IGphdmEubGFuZy5OdWxsUG9pbnRlckV4Y2VwdGlvbjogQ2Fubm90IGludm9rZSAmcXVvdDtjb20ucm9zc2llLndlYnNvcnRpbmdhbGdvcml0aG0uc2VydmljZS5EYXRhU2VydmljZS5zb3J0KFN0cmluZywgamF2YS51dGlsLkxpc3QpJnF1b3Q7IGJlY2F1c2UgJnF1b3Q7dGhpcy5zb3J0aW5nU2VydmljZSZxdW90OyBpcyBudWxsDQoJb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuc2VydmxldC5GcmFtZXdvcmtTZXJ2bGV0LnByb2Nlc3NSZXF1ZXN0KEZyYW1ld29ya1NlcnZsZXQuamF2YToxMDIyKQ0KCW9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQuRnJhbWV3b3JrU2VydmxldC5kb1Bvc3QoRnJhbWV3b3JrU2VydmxldC5qYXZhOjkxNCkNCglqYWthcnRhLnNlcnZsZXQuaHR0cC5IdHRwU2VydmxldC5zZXJ2aWNlKEh0dHBTZXJ2bGV0LmphdmE6NjQ1KQ0KCW9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQuRnJhbWV3b3JrU2VydmxldC5zZXJ2aWNlKEZyYW1ld29ya1NlcnZsZXQuamF2YTo4ODUpDQoJamFrYXJ0YS5zZXJ2bGV0Lmh0dHAuSHR0cFNlcnZsZXQuc2VydmljZShIdHRwU2VydmxldC5qYXZhOjcxNikNCglvcmcuYXBhY2hlLnRvbWNhdC53ZWJzb2NrZXQuc2VydmVyLldzRmlsdGVyLmRvRmlsdGVyKFdzRmlsdGVyLmphdmE6NTEpDQoJb3JnLmFwYWNoZS5jYXRhbGluYS5hdXRoZW50aWNhdG9yLkF1dGhlbnRpY2F0b3JCYXNlLmludm9rZShBdXRoZW50aWNhdG9yQmFzZS5qYXZhOjQ4MykNCglvcmcuYXBhY2hlLmNhdGFsaW5hLnZhbHZlcy5FcnJvclJlcG9ydFZhbHZlLmludm9rZShFcnJvclJlcG9ydFZhbHZlLmphdmE6OTMpDQoJb3JnLmFwYWNoZS5jYXRhbGluYS52YWx2ZXMuQWJzdHJhY3RBY2Nlc3NMb2dWYWx2ZS5pbnZva2UoQWJzdHJhY3RBY2Nlc3NMb2dWYWx2ZS5qYXZhOjY2MykNCglvcmcuYXBhY2hlLmNhdGFsaW5hLmNvbm5lY3Rvci5Db3lvdGVBZGFwdGVyLnNlcnZpY2UoQ295b3RlQWRhcHRlci5qYXZhOjM0MikNCglvcmcuYXBhY2hlLmNveW90ZS5odHRwMTEuSHR0cDExUHJvY2Vzc29yLnNlcnZpY2UoSHR0cDExUHJvY2Vzc29yLmphdmE6Mzk1KQ0KCW9yZy5hcGFjaGUuY295b3RlLkFic3RyYWN0UHJvY2Vzc29yTGlnaHQucHJvY2VzcyhBYnN0cmFjdFByb2Nlc3NvckxpZ2h0LmphdmE6NjMpDQoJb3JnLmFwYWNoZS5jb3lvdGUuQWJzdHJhY3RQcm90b2NvbCRDb25uZWN0aW9uSGFuZGxlci5wcm9jZXNzKEFic3RyYWN0UHJvdG9jb2wuamF2YTo5MDUpDQoJb3JnLmFwYWNoZS50b21jYXQudXRpbC5uZXQuTmlvRW5kcG9pbnQkU29ja2V0UHJvY2Vzc29yLmRvUnVuKE5pb0VuZHBvaW50LmphdmE6MTc0NikNCglvcmcuYXBhY2hlLnRvbWNhdC51dGlsLm5ldC5Tb2NrZXRQcm9jZXNzb3JCYXNlLnJ1bihTb2NrZXRQcm9jZXNzb3JCYXNlLmphdmE6NTIpDQoJb3JnLmFwYWNoZS50b21jYXQudXRpbC50aHJlYWRzLlRocmVhZFBvb2xFeGVjdXRvci5ydW5Xb3JrZXIoVGhyZWFkUG9vbEV4ZWN1dG9yLmphdmE6MTE0OCkNCglvcmcuYXBhY2hlLnRvbWNhdC51dGlsLnRocmVhZHMuVGhyZWFkUG9vbEV4ZWN1dG9yJFdvcmtlci5ydW4oVGhyZWFkUG9vbEV4ZWN1dG9yLmphdmE6NjM2KQ0KCW9yZy5hcGFjaGUudG9tY2F0LnV0aWwudGhyZWFkcy5UYXNrVGhyZWFkJFdyYXBwaW5nUnVubmFibGUucnVuKFRhc2tUaHJlYWQuamF2YTo2MykNCglqYXZhLmJhc2UmIzQ3O2phdmEubGFuZy5UaHJlYWQucnVuKFRocmVhZC5qYXZhOjE1ODMpDQo8L3ByZT48cD48Yj5Sb290IENhdXNlPC9iPjwvcD48cHJlPmphdmEubGFuZy5OdWxsUG9pbnRlckV4Y2VwdGlvbjogQ2Fubm90IGludm9rZSAmcXVvdDtjb20ucm9zc2llLndlYnNvcnRpbmdhbGdvcml0aG0uc2VydmljZS5EYXRhU2VydmljZS5zb3J0KFN0cmluZywgamF2YS51dGlsLkxpc3QpJnF1b3Q7IGJlY2F1c2UgJnF1b3Q7dGhpcy5zb3J0aW5nU2VydmljZSZxdW90OyBpcyBudWxsDQoJY29tLnJvc3NpZS53ZWJzb3J0aW5nYWxnb3JpdGhtLmNvbnRyb2xsZXIuQ29udHJvbGxlci5zb3J0RGF0YShDb250cm9sbGVyLmphdmE6MjIpDQoJamF2YS5iYXNlJiM0NztqZGsuaW50ZXJuYWwucmVmbGVjdC5EaXJlY3RNZXRob2RIYW5kbGVBY2Nlc3Nvci5pbnZva2UoRGlyZWN0TWV0aG9kSGFuZGxlQWNjZXNzb3IuamF2YToxMDMpDQoJamF2YS5iYXNlJiM0NztqYXZhLmxhbmcucmVmbGVjdC5NZXRob2QuaW52b2tlKE1ldGhvZC5qYXZhOjU4MCkNCglvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5tZXRob2Quc3VwcG9ydC5JbnZvY2FibGVIYW5kbGVyTWV0aG9kLmRvSW52b2tlKEludm9jYWJsZUhhbmRsZXJNZXRob2QuamF2YToyNTUpDQoJb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIubWV0aG9kLnN1cHBvcnQuSW52b2NhYmxlSGFuZGxlck1ldGhvZC5pbnZva2VGb3JSZXF1ZXN0KEludm9jYWJsZUhhbmRsZXJNZXRob2QuamF2YToxODgpDQoJb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuc2VydmxldC5tdmMubWV0aG9kLmFubm90YXRpb24uU2VydmxldEludm9jYWJsZUhhbmRsZXJNZXRob2QuaW52b2tlQW5kSGFuZGxlKFNlcnZsZXRJbnZvY2FibGVIYW5kbGVyTWV0aG9kLmphdmE6MTE4KQ0KCW9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQubXZjLm1ldGhvZC5hbm5vdGF0aW9uLlJlcXVlc3RNYXBwaW5nSGFuZGxlckFkYXB0ZXIuaW52b2tlSGFuZGxlck1ldGhvZChSZXF1ZXN0TWFwcGluZ0hhbmRsZXJBZGFwdGVyLmphdmE6OTg2KQ0KCW9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQubXZjLm1ldGhvZC5hbm5vdGF0aW9uLlJlcXVlc3RNYXBwaW5nSGFuZGxlckFkYXB0ZXIuaGFuZGxlSW50ZXJuYWwoUmVxdWVzdE1hcHBpbmdIYW5kbGVyQWRhcHRlci5qYXZhOjg5MSkNCglvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5zZXJ2bGV0Lm12Yy5tZXRob2QuQWJzdHJhY3RIYW5kbGVyTWV0aG9kQWRhcHRlci5oYW5kbGUoQWJzdHJhY3RIYW5kbGVyTWV0aG9kQWRhcHRlci5qYXZhOjg3KQ0KCW9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQuRGlzcGF0Y2hlclNlcnZsZXQuZG9EaXNwYXRjaChEaXNwYXRjaGVyU2VydmxldC5qYXZhOjEwODgpDQoJb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuc2VydmxldC5EaXNwYXRjaGVyU2VydmxldC5kb1NlcnZpY2UoRGlzcGF0Y2hlclNlcnZsZXQuamF2YTo5NzgpDQoJb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuc2VydmxldC5GcmFtZXdvcmtTZXJ2bGV0LnByb2Nlc3NSZXF1ZXN0KEZyYW1ld29ya1NlcnZsZXQuamF2YToxMDE0KQ0KCW9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQuRnJhbWV3b3JrU2VydmxldC5kb1Bvc3QoRnJhbWV3b3JrU2VydmxldC5qYXZhOjkxNCkNCglqYWthcnRhLnNlcnZsZXQuaHR0cC5IdHRwU2VydmxldC5zZXJ2aWNlKEh0dHBTZXJ2bGV0LmphdmE6NjQ1KQ0KCW9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQuRnJhbWV3b3JrU2VydmxldC5zZXJ2aWNlKEZyYW1ld29ya1NlcnZsZXQuamF2YTo4ODUpDQoJamFrYXJ0YS5zZXJ2bGV0Lmh0dHAuSHR0cFNlcnZsZXQuc2VydmljZShIdHRwU2VydmxldC5qYXZhOjcxNikNCglvcmcuYXBhY2hlLnRvbWNhdC53ZWJzb2NrZXQuc2VydmVyLldzRmlsdGVyLmRvRmlsdGVyKFdzRmlsdGVyLmphdmE6NTEpDQoJb3JnLmFwYWNoZS5jYXRhbGluYS5hdXRoZW50aWNhdG9yLkF1dGhlbnRpY2F0b3JCYXNlLmludm9rZShBdXRoZW50aWNhdG9yQmFzZS5qYXZhOjQ4MykNCglvcmcuYXBhY2hlLmNhdGFsaW5hLnZhbHZlcy5FcnJvclJlcG9ydFZhbHZlLmludm9rZShFcnJvclJlcG9ydFZhbHZlLmphdmE6OTMpDQoJb3JnLmFwYWNoZS5jYXRhbGluYS52YWx2ZXMuQWJzdHJhY3RBY2Nlc3NMb2dWYWx2ZS5pbnZva2UoQWJzdHJhY3RBY2Nlc3NMb2dWYWx2ZS5qYXZhOjY2MykNCglvcmcuYXBhY2hlLmNhdGFsaW5hLmNvbm5lY3Rvci5Db3lvdGVBZGFwdGVyLnNlcnZpY2UoQ295b3RlQWRhcHRlci5qYXZhOjM0MikNCglvcmcuYXBhY2hlLmNveW90ZS5odHRwMTEuSHR0cDExUHJvY2Vzc29yLnNlcnZpY2UoSHR0cDExUHJvY2Vzc29yLmphdmE6Mzk1KQ0KCW9yZy5hcGFjaGUuY295b3RlLkFic3RyYWN0UHJvY2Vzc29yTGlnaHQucHJvY2VzcyhBYnN0cmFjdFByb2Nlc3NvckxpZ2h0LmphdmE6NjMpDQoJb3JnLmFwYWNoZS5jb3lvdGUuQWJzdHJhY3RQcm90b2NvbCRDb25uZWN0aW9uSGFuZGxlci5wcm9jZXNzKEFic3RyYWN0UHJvdG9jb2wuamF2YTo5MDUpDQoJb3JnLmFwYWNoZS50b21jYXQudXRpbC5uZXQuTmlvRW5kcG9pbnQkU29ja2V0UHJvY2Vzc29yLmRvUnVuKE5pb0VuZHBvaW50LmphdmE6MTc0NikNCglvcmcuYXBhY2hlLnRvbWNhdC51dGlsLm5ldC5Tb2NrZXRQcm9jZXNzb3JCYXNlLnJ1bihTb2NrZXRQcm9jZXNzb3JCYXNlLmphdmE6NTIpDQoJb3JnLmFwYWNoZS50b21jYXQudXRpbC50aHJlYWRzLlRocmVhZFBvb2xFeGVjdXRvci5ydW5Xb3JrZXIoVGhyZWFkUG9vbEV4ZWN1dG9yLmphdmE6MTE0OCkNCglvcmcuYXBhY2hlLnRvbWNhdC51dGlsLnRocmVhZHMuVGhyZWFkUG9vbEV4ZWN1dG9yJFdvcmtlci5ydW4oVGhyZWFkUG9vbEV4ZWN1dG9yLmphdmE6NjM2KQ0KCW9yZy5hcGFjaGUudG9tY2F0LnV0aWwudGhyZWFkcy5UYXNrVGhyZWFkJFdyYXBwaW5nUnVubmFibGUucnVuKFRhc2tUaHJlYWQuamF2YTo2MykNCglqYXZhLmJhc2UmIzQ3O2phdmEubGFuZy5UaHJlYWQucnVuKFRocmVhZC5qYXZhOjE1ODMpDQo8L3ByZT48cD48Yj5Ob3RlPC9iPiBUaGUgZnVsbCBzdGFjayB0cmFjZSBvZiB0aGUgcm9vdCBjYXVzZSBpcyBhdmFpbGFibGUgaW4gdGhlIHNlcnZlciBsb2dzLjwvcD48aHIgY2xhc3M9ImxpbmUiIC8+PGgzPkFwYWNoZSBUb21jYXQvMTEuMC4xPC9oMz48L2JvZHk+PC9odG1sPg==" />
+              <option name="bodyString" value="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;title&gt;HTTP Status 500 – Internal Server Error&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status 500 – Internal Server Error&lt;/h1&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;p&gt;&lt;b&gt;Type&lt;/b&gt; Exception Report&lt;/p&gt;&lt;p&gt;&lt;b&gt;Message&lt;/b&gt; Request processing failed: java.lang.NullPointerException: Cannot invoke &amp;quot;com.rossie.websortingalgorithm.service.DataService.sort(String, java.util.List)&amp;quot; because &amp;quot;this.sortingService&amp;quot; is null&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description&lt;/b&gt; The server encountered an unexpected condition that prevented it from fulfilling the request.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Exception&lt;/b&gt;&lt;/p&gt;&lt;pre&gt;jakarta.servlet.ServletException: Request processing failed: java.lang.NullPointerException: Cannot invoke &amp;quot;com.rossie.websortingalgorithm.service.DataService.sort(String, java.util.List)&amp;quot; because &amp;quot;this.sortingService&amp;quot; is null&#10;&#9;org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1022)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)&#10;&#9;jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)&#10;&#9;jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)&#10;&#9;org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)&#10;&#9;org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)&#10;&#9;org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)&#10;&#9;org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)&#10;&#9;org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)&#10;&#9;org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:395)&#10;&#9;org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)&#10;&#9;org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)&#10;&#9;org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)&#10;&#9;org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)&#10;&#9;org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)&#10;&#9;org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)&#10;&#9;org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)&#10;&#9;java.base&amp;#47;java.lang.Thread.run(Thread.java:1583)&#10;&lt;/pre&gt;&lt;p&gt;&lt;b&gt;Root Cause&lt;/b&gt;&lt;/p&gt;&lt;pre&gt;java.lang.NullPointerException: Cannot invoke &amp;quot;com.rossie.websortingalgorithm.service.DataService.sort(String, java.util.List)&amp;quot; because &amp;quot;this.sortingService&amp;quot; is null&#10;&#9;com.rossie.websortingalgorithm.controller.Controller.sortData(Controller.java:22)&#10;&#9;java.base&amp;#47;jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#10;&#9;java.base&amp;#47;java.lang.reflect.Method.invoke(Method.java:580)&#10;&#9;org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)&#10;&#9;org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)&#10;&#9;org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)&#10;&#9;org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)&#10;&#9;org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)&#10;&#9;org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)&#10;&#9;org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)&#10;&#9;org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)&#10;&#9;jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)&#10;&#9;jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)&#10;&#9;org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)&#10;&#9;org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)&#10;&#9;org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)&#10;&#9;org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)&#10;&#9;org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)&#10;&#9;org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:395)&#10;&#9;org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)&#10;&#9;org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)&#10;&#9;org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)&#10;&#9;org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)&#10;&#9;org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)&#10;&#9;org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)&#10;&#9;org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)&#10;&#9;java.base&amp;#47;java.lang.Thread.run(Thread.java:1583)&#10;&lt;/pre&gt;&lt;p&gt;&lt;b&gt;Note&lt;/b&gt; The full stack trace of the root cause is available in the server logs.&lt;/p&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;h3&gt;Apache Tomcat/11.0.1&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="code" value="500" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html;charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Language" />
+                    <option name="value" value="en" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="5803" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 02 Dec 2024 16:46:41 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="close" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="dced7116-40c8-4593-8070-87b5c4e62810" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;title&gt;HTTP Status 500 – Internal Server Error&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status 500 – Internal Server Error&lt;/h1&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;p&gt;&lt;b&gt;Type&lt;/b&gt; Exception Report&lt;/p&gt;&lt;p&gt;&lt;b&gt;Message&lt;/b&gt; Request processing failed: java.lang.NullPointerException: Cannot invoke &amp;quot;com.rossie.websortingalgorithm.service.DataService.sort(String, java.util.List)&amp;quot; because &amp;quot;this.sortingService&amp;quot; is null&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description&lt;/b&gt; The server encountered an unexpected condition that prevented it from fulfilling the request.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Exception&lt;/b&gt;&lt;/p&gt;&lt;pre&gt;jakarta.servlet.ServletException: Request processing failed: java.lang.NullPointerException: Cannot invoke &amp;quot;com.rossie.websortingalgorithm.service.DataService.sort(String, java.util.List)&amp;quot; because &amp;quot;this.sortingService&amp;quot; is null&#10;&#9;org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1022)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)&#10;&#9;jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)&#10;&#9;jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)&#10;&#9;org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)&#10;&#9;org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)&#10;&#9;org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)&#10;&#9;org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)&#10;&#9;org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)&#10;&#9;org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:395)&#10;&#9;org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)&#10;&#9;org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)&#10;&#9;org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)&#10;&#9;org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)&#10;&#9;org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)&#10;&#9;org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)&#10;&#9;org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)&#10;&#9;java.base&amp;#47;java.lang.Thread.run(Thread.java:1583)&#10;&lt;/pre&gt;&lt;p&gt;&lt;b&gt;Root Cause&lt;/b&gt;&lt;/p&gt;&lt;pre&gt;java.lang.NullPointerException: Cannot invoke &amp;quot;com.rossie.websortingalgorithm.service.DataService.sort(String, java.util.List)&amp;quot; because &amp;quot;this.sortingService&amp;quot; is null&#10;&#9;com.rossie.websortingalgorithm.controller.Controller.sortData(Controller.java:22)&#10;&#9;java.base&amp;#47;jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#10;&#9;java.base&amp;#47;java.lang.reflect.Method.invoke(Method.java:580)&#10;&#9;org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)&#10;&#9;org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)&#10;&#9;org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)&#10;&#9;org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)&#10;&#9;org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)&#10;&#9;org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)&#10;&#9;org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)&#10;&#9;org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)&#10;&#9;jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)&#10;&#9;jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)&#10;&#9;org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)&#10;&#9;org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)&#10;&#9;org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)&#10;&#9;org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)&#10;&#9;org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)&#10;&#9;org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:395)&#10;&#9;org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)&#10;&#9;org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)&#10;&#9;org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)&#10;&#9;org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)&#10;&#9;org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)&#10;&#9;org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)&#10;&#9;org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)&#10;&#9;java.base&amp;#47;java.lang.Thread.run(Thread.java:1583)&#10;&lt;/pre&gt;&lt;p&gt;&lt;b&gt;Note&lt;/b&gt; The full stack trace of the root cause is available in the server logs.&lt;/p&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;h3&gt;Apache Tomcat/11.0.1&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="size" value="5803" />
+              <option name="time" value="5" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="09e6b839-fb75-4929-9ad1-15f0d1a49e1e" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1733158149002" />
+          <option name="id" value="91962f30-4ee9-4166-ac45-c56db2228475" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;algorithm&quot;: &quot;quickSort&quot;,&#10;  &quot;data&quot;: [5, 2, 9, 1, 3]&#10;}&#10;" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="e126fe85-7c74-4bbd-8ae2-f2514266feca" />
+              <option name="method" value="POST" />
+              <option name="name" value="New Request" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://localhost:8080/WebSortingAlgorithm_war/api/v1/sort" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJsaW5rczogIjpbeyJocmVmIjoiL2RhdGEvc29ydCIsInJlbCI6InNlbGYifSx7ImhyZWYiOiIvZGF0YSIsInJlbCI6ImFsbCJ9XSwic29ydGVkRGF0YTogIjpbMSwyLDMsNSw5XX0=" />
+              <option name="bodyString" value="{&#10;  &quot;links: &quot;: [&#10;    {&#10;      &quot;href&quot;: &quot;/data/sort&quot;,&#10;      &quot;rel&quot;: &quot;self&quot;&#10;    },&#10;    {&#10;      &quot;href&quot;: &quot;/data&quot;,&#10;      &quot;rel&quot;: &quot;all&quot;&#10;    }&#10;  ],&#10;  &quot;sortedData: &quot;: [&#10;    1,&#10;    2,&#10;    3,&#10;    5,&#10;    9&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 02 Dec 2024 16:49:08 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=20" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="91962f30-4ee9-4166-ac45-c56db2228475" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;links: &quot;:[{&quot;href&quot;:&quot;/data/sort&quot;,&quot;rel&quot;:&quot;self&quot;},{&quot;href&quot;:&quot;/data&quot;,&quot;rel&quot;:&quot;all&quot;}],&quot;sortedData: &quot;:[1,2,3,5,9]}" />
+              <option name="size" value="104" />
+              <option name="time" value="263" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="09e6b839-fb75-4929-9ad1-15f0d1a49e1e" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1733161919378" />
+          <option name="id" value="df87bef5-e278-4de6-84ff-e58e18bec74f" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;list&quot;: [5, 2, 9, 1, 3]&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="587fd534-86ac-46f8-ad19-6a0aa0ff5f89" />
+              <option name="method" value="POST" />
+              <option name="name" value="CreateData" />
+              <option name="sortWeight" value="2000000" />
+              <option name="url" value="http://localhost:8080/WebSortingAlgorithm_war/api/v1/data/add" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="PCFkb2N0eXBlIGh0bWw+PGh0bWwgbGFuZz0iZW4iPjxoZWFkPjx0aXRsZT5IVFRQIFN0YXR1cyA0MDUg4oCTIE1ldGhvZCBOb3QgQWxsb3dlZDwvdGl0bGU+PHN0eWxlIHR5cGU9InRleHQvY3NzIj5ib2R5IHtmb250LWZhbWlseTpUYWhvbWEsQXJpYWwsc2Fucy1zZXJpZjt9IGgxLCBoMiwgaDMsIGIge2NvbG9yOndoaXRlO2JhY2tncm91bmQtY29sb3I6IzUyNUQ3Njt9IGgxIHtmb250LXNpemU6MjJweDt9IGgyIHtmb250LXNpemU6MTZweDt9IGgzIHtmb250LXNpemU6MTRweDt9IHAge2ZvbnQtc2l6ZToxMnB4O30gYSB7Y29sb3I6YmxhY2s7fSAubGluZSB7aGVpZ2h0OjFweDtiYWNrZ3JvdW5kLWNvbG9yOiM1MjVENzY7Ym9yZGVyOm5vbmU7fTwvc3R5bGU+PC9oZWFkPjxib2R5PjxoMT5IVFRQIFN0YXR1cyA0MDUg4oCTIE1ldGhvZCBOb3QgQWxsb3dlZDwvaDE+PGhyIGNsYXNzPSJsaW5lIiAvPjxwPjxiPlR5cGU8L2I+IFN0YXR1cyBSZXBvcnQ8L3A+PHA+PGI+TWVzc2FnZTwvYj4gTWV0aG9kICYjMzk7UE9TVCYjMzk7IGlzIG5vdCBzdXBwb3J0ZWQuPC9wPjxwPjxiPkRlc2NyaXB0aW9uPC9iPiBUaGUgbWV0aG9kIHJlY2VpdmVkIGluIHRoZSByZXF1ZXN0LWxpbmUgaXMga25vd24gYnkgdGhlIG9yaWdpbiBzZXJ2ZXIgYnV0IG5vdCBzdXBwb3J0ZWQgYnkgdGhlIHRhcmdldCByZXNvdXJjZS48L3A+PGhyIGNsYXNzPSJsaW5lIiAvPjxoMz5BcGFjaGUgVG9tY2F0LzExLjAuMTwvaDM+PC9ib2R5PjwvaHRtbD4=" />
+              <option name="bodyString" value="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;title&gt;HTTP Status 405 – Method Not Allowed&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status 405 – Method Not Allowed&lt;/h1&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;p&gt;&lt;b&gt;Type&lt;/b&gt; Status Report&lt;/p&gt;&lt;p&gt;&lt;b&gt;Message&lt;/b&gt; Method &amp;#39;POST&amp;#39; is not supported.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description&lt;/b&gt; The method received in the request-line is known by the origin server but not supported by the target resource.&lt;/p&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;h3&gt;Apache Tomcat/11.0.1&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="code" value="405" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Allow" />
+                    <option name="value" value="GET" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html;charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Language" />
+                    <option name="value" value="en" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="746" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 02 Dec 2024 17:51:59 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=20" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="df87bef5-e278-4de6-84ff-e58e18bec74f" />
+              <option name="message" value="Method Not Allowed" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;title&gt;HTTP Status 405 – Method Not Allowed&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status 405 – Method Not Allowed&lt;/h1&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;p&gt;&lt;b&gt;Type&lt;/b&gt; Status Report&lt;/p&gt;&lt;p&gt;&lt;b&gt;Message&lt;/b&gt; Method &amp;#39;POST&amp;#39; is not supported.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description&lt;/b&gt; The method received in the request-line is known by the origin server but not supported by the target resource.&lt;/p&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;h3&gt;Apache Tomcat/11.0.1&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="size" value="746" />
+              <option name="time" value="57" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="09e6b839-fb75-4929-9ad1-15f0d1a49e1e" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1733162007892" />
+          <option name="id" value="797393bd-af6c-4f80-abec-1239b9cde025" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;list&quot;: [5, 2, 9, 1, 3]&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="587fd534-86ac-46f8-ad19-6a0aa0ff5f89" />
+              <option name="method" value="POST" />
+              <option name="name" value="CreateData" />
+              <option name="sortWeight" value="2000000" />
+              <option name="url" value="http://localhost:8080/WebSortingAlgorithm_war/api/v1/data/add" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="PCFkb2N0eXBlIGh0bWw+PGh0bWwgbGFuZz0iZW4iPjxoZWFkPjx0aXRsZT5IVFRQIFN0YXR1cyA0MDAg4oCTIEJhZCBSZXF1ZXN0PC90aXRsZT48c3R5bGUgdHlwZT0idGV4dC9jc3MiPmJvZHkge2ZvbnQtZmFtaWx5OlRhaG9tYSxBcmlhbCxzYW5zLXNlcmlmO30gaDEsIGgyLCBoMywgYiB7Y29sb3I6d2hpdGU7YmFja2dyb3VuZC1jb2xvcjojNTI1RDc2O30gaDEge2ZvbnQtc2l6ZToyMnB4O30gaDIge2ZvbnQtc2l6ZToxNnB4O30gaDMge2ZvbnQtc2l6ZToxNHB4O30gcCB7Zm9udC1zaXplOjEycHg7fSBhIHtjb2xvcjpibGFjazt9IC5saW5lIHtoZWlnaHQ6MXB4O2JhY2tncm91bmQtY29sb3I6IzUyNUQ3Njtib3JkZXI6bm9uZTt9PC9zdHlsZT48L2hlYWQ+PGJvZHk+PGgxPkhUVFAgU3RhdHVzIDQwMCDigJMgQmFkIFJlcXVlc3Q8L2gxPjxociBjbGFzcz0ibGluZSIgLz48cD48Yj5UeXBlPC9iPiBTdGF0dXMgUmVwb3J0PC9wPjxwPjxiPkRlc2NyaXB0aW9uPC9iPiBUaGUgc2VydmVyIGNhbm5vdCBvciB3aWxsIG5vdCBwcm9jZXNzIHRoZSByZXF1ZXN0IGR1ZSB0byBzb21ldGhpbmcgdGhhdCBpcyBwZXJjZWl2ZWQgdG8gYmUgYSBjbGllbnQgZXJyb3IgKGUuZy4sIG1hbGZvcm1lZCByZXF1ZXN0IHN5bnRheCwgaW52YWxpZCByZXF1ZXN0IG1lc3NhZ2UgZnJhbWluZywgb3IgZGVjZXB0aXZlIHJlcXVlc3Qgcm91dGluZykuPC9wPjxociBjbGFzcz0ibGluZSIgLz48aDM+QXBhY2hlIFRvbWNhdC8xMS4wLjE8L2gzPjwvYm9keT48L2h0bWw+" />
+              <option name="bodyString" value="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;title&gt;HTTP Status 400 – Bad Request&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status 400 – Bad Request&lt;/h1&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;p&gt;&lt;b&gt;Type&lt;/b&gt; Status Report&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description&lt;/b&gt; The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).&lt;/p&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;h3&gt;Apache Tomcat/11.0.1&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="code" value="400" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html;charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Language" />
+                    <option name="value" value="en" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="762" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 02 Dec 2024 17:53:27 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="close" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="797393bd-af6c-4f80-abec-1239b9cde025" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;title&gt;HTTP Status 400 – Bad Request&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status 400 – Bad Request&lt;/h1&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;p&gt;&lt;b&gt;Type&lt;/b&gt; Status Report&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description&lt;/b&gt; The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).&lt;/p&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;h3&gt;Apache Tomcat/11.0.1&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="size" value="762" />
+              <option name="time" value="146" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="09e6b839-fb75-4929-9ad1-15f0d1a49e1e" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1733162010440" />
+          <option name="id" value="d39c9345-fdd7-4201-8365-b0d6b7c6bae6" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;list&quot;: [5, 2, 9, 1, 3]&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="587fd534-86ac-46f8-ad19-6a0aa0ff5f89" />
+              <option name="method" value="POST" />
+              <option name="name" value="CreateData" />
+              <option name="sortWeight" value="2000000" />
+              <option name="url" value="http://localhost:8080/WebSortingAlgorithm_war/api/v1/data/add" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="PCFkb2N0eXBlIGh0bWw+PGh0bWwgbGFuZz0iZW4iPjxoZWFkPjx0aXRsZT5IVFRQIFN0YXR1cyA0MDAg4oCTIEJhZCBSZXF1ZXN0PC90aXRsZT48c3R5bGUgdHlwZT0idGV4dC9jc3MiPmJvZHkge2ZvbnQtZmFtaWx5OlRhaG9tYSxBcmlhbCxzYW5zLXNlcmlmO30gaDEsIGgyLCBoMywgYiB7Y29sb3I6d2hpdGU7YmFja2dyb3VuZC1jb2xvcjojNTI1RDc2O30gaDEge2ZvbnQtc2l6ZToyMnB4O30gaDIge2ZvbnQtc2l6ZToxNnB4O30gaDMge2ZvbnQtc2l6ZToxNHB4O30gcCB7Zm9udC1zaXplOjEycHg7fSBhIHtjb2xvcjpibGFjazt9IC5saW5lIHtoZWlnaHQ6MXB4O2JhY2tncm91bmQtY29sb3I6IzUyNUQ3Njtib3JkZXI6bm9uZTt9PC9zdHlsZT48L2hlYWQ+PGJvZHk+PGgxPkhUVFAgU3RhdHVzIDQwMCDigJMgQmFkIFJlcXVlc3Q8L2gxPjxociBjbGFzcz0ibGluZSIgLz48cD48Yj5UeXBlPC9iPiBTdGF0dXMgUmVwb3J0PC9wPjxwPjxiPkRlc2NyaXB0aW9uPC9iPiBUaGUgc2VydmVyIGNhbm5vdCBvciB3aWxsIG5vdCBwcm9jZXNzIHRoZSByZXF1ZXN0IGR1ZSB0byBzb21ldGhpbmcgdGhhdCBpcyBwZXJjZWl2ZWQgdG8gYmUgYSBjbGllbnQgZXJyb3IgKGUuZy4sIG1hbGZvcm1lZCByZXF1ZXN0IHN5bnRheCwgaW52YWxpZCByZXF1ZXN0IG1lc3NhZ2UgZnJhbWluZywgb3IgZGVjZXB0aXZlIHJlcXVlc3Qgcm91dGluZykuPC9wPjxociBjbGFzcz0ibGluZSIgLz48aDM+QXBhY2hlIFRvbWNhdC8xMS4wLjE8L2gzPjwvYm9keT48L2h0bWw+" />
+              <option name="bodyString" value="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;title&gt;HTTP Status 400 – Bad Request&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status 400 – Bad Request&lt;/h1&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;p&gt;&lt;b&gt;Type&lt;/b&gt; Status Report&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description&lt;/b&gt; The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).&lt;/p&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;h3&gt;Apache Tomcat/11.0.1&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="code" value="400" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html;charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Language" />
+                    <option name="value" value="en" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="762" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 02 Dec 2024 17:53:30 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="close" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="d39c9345-fdd7-4201-8365-b0d6b7c6bae6" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;title&gt;HTTP Status 400 – Bad Request&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status 400 – Bad Request&lt;/h1&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;p&gt;&lt;b&gt;Type&lt;/b&gt; Status Report&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description&lt;/b&gt; The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).&lt;/p&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;h3&gt;Apache Tomcat/11.0.1&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="size" value="762" />
+              <option name="time" value="4" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="09e6b839-fb75-4929-9ad1-15f0d1a49e1e" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1733162090055" />
+          <option name="id" value="e0235506-770f-4d55-8622-e9b48caaf535" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="[5, 2, 9, 1, 3]&#10;" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="587fd534-86ac-46f8-ad19-6a0aa0ff5f89" />
+              <option name="method" value="POST" />
+              <option name="name" value="CreateData" />
+              <option name="sortWeight" value="2000000" />
+              <option name="url" value="http://localhost:8080/WebSortingAlgorithm_war/api/v1/data/add" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJpZCI6MSwibGlzdCI6bnVsbCwic29ydEFsZ29yaXRobSI6bnVsbCwibGlua3MiOlt7InJlbCI6ImFsbC1kYXRhc2V0cyIsImhyZWYiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvV2ViU29ydGluZ0FsZ29yaXRobV93YXIvYXBpL3YxL2RhdGEifV19" />
+              <option name="bodyString" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;list&quot;: null,&#10;  &quot;sortAlgorithm&quot;: null,&#10;  &quot;links&quot;: [&#10;    {&#10;      &quot;rel&quot;: &quot;all-datasets&quot;,&#10;      &quot;href&quot;: &quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 02 Dec 2024 17:54:50 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=20" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="e0235506-770f-4d55-8622-e9b48caaf535" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;id&quot;:1,&quot;list&quot;:null,&quot;sortAlgorithm&quot;:null,&quot;links&quot;:[{&quot;rel&quot;:&quot;all-datasets&quot;,&quot;href&quot;:&quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;}]}" />
+              <option name="size" value="141" />
+              <option name="time" value="289" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="09e6b839-fb75-4929-9ad1-15f0d1a49e1e" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1733162176434" />
+          <option name="id" value="d1c9fd35-c212-472a-9622-45af944ee041" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="[5, 2, 9, 1, 3, 7, 9, 70]&#10;" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="587fd534-86ac-46f8-ad19-6a0aa0ff5f89" />
+              <option name="method" value="POST" />
+              <option name="name" value="CreateData" />
+              <option name="sortWeight" value="2000000" />
+              <option name="url" value="http://localhost:8080/WebSortingAlgorithm_war/api/v1/data/add" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJpZCI6MSwibGlzdCI6WzUsMiw5LDEsMyw3LDksNzBdLCJzb3J0QWxnb3JpdGhtIjpudWxsLCJsaW5rcyI6W3sicmVsIjoiYWxsLWRhdGFzZXRzIiwiaHJlZiI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9XZWJTb3J0aW5nQWxnb3JpdGhtX3dhci9hcGkvdjEvZGF0YSJ9XX0=" />
+              <option name="bodyString" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;list&quot;: [&#10;    5,&#10;    2,&#10;    9,&#10;    1,&#10;    3,&#10;    7,&#10;    9,&#10;    70&#10;  ],&#10;  &quot;sortAlgorithm&quot;: null,&#10;  &quot;links&quot;: [&#10;    {&#10;      &quot;rel&quot;: &quot;all-datasets&quot;,&#10;      &quot;href&quot;: &quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 02 Dec 2024 17:56:16 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=20" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="d1c9fd35-c212-472a-9622-45af944ee041" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;id&quot;:1,&quot;list&quot;:[5,2,9,1,3,7,9,70],&quot;sortAlgorithm&quot;:null,&quot;links&quot;:[{&quot;rel&quot;:&quot;all-datasets&quot;,&quot;href&quot;:&quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;}]}" />
+              <option name="size" value="155" />
+              <option name="time" value="418" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="09e6b839-fb75-4929-9ad1-15f0d1a49e1e" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1733162214709" />
+          <option name="id" value="2e8087bc-4329-4ea6-84da-92da71feda51" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="[15, 27, 9, 1, 37, 7, 9, 70]&#10;" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="587fd534-86ac-46f8-ad19-6a0aa0ff5f89" />
+              <option name="method" value="POST" />
+              <option name="name" value="CreateData" />
+              <option name="sortWeight" value="2000000" />
+              <option name="url" value="http://localhost:8080/WebSortingAlgorithm_war/api/v1/data/add" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJpZCI6MiwibGlzdCI6WzE1LDI3LDksMSwzNyw3LDksNzBdLCJzb3J0QWxnb3JpdGhtIjpudWxsLCJsaW5rcyI6W3sicmVsIjoiYWxsLWRhdGFzZXRzIiwiaHJlZiI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9XZWJTb3J0aW5nQWxnb3JpdGhtX3dhci9hcGkvdjEvZGF0YSJ9XX0=" />
+              <option name="bodyString" value="{&#10;  &quot;id&quot;: 2,&#10;  &quot;list&quot;: [&#10;    15,&#10;    27,&#10;    9,&#10;    1,&#10;    37,&#10;    7,&#10;    9,&#10;    70&#10;  ],&#10;  &quot;sortAlgorithm&quot;: null,&#10;  &quot;links&quot;: [&#10;    {&#10;      &quot;rel&quot;: &quot;all-datasets&quot;,&#10;      &quot;href&quot;: &quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 02 Dec 2024 17:56:54 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=20" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="2e8087bc-4329-4ea6-84da-92da71feda51" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;id&quot;:2,&quot;list&quot;:[15,27,9,1,37,7,9,70],&quot;sortAlgorithm&quot;:null,&quot;links&quot;:[{&quot;rel&quot;:&quot;all-datasets&quot;,&quot;href&quot;:&quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;}]}" />
+              <option name="size" value="158" />
+              <option name="time" value="5" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="09e6b839-fb75-4929-9ad1-15f0d1a49e1e" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1733162236342" />
+          <option name="id" value="75964bcd-4bfd-43eb-a8a2-13801b16e681" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;algorithm&quot;: &quot;quickSort&quot;,&#10;  &quot;data&quot;: [5, 2, 9, 1, 3]&#10;}&#10;" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="e126fe85-7c74-4bbd-8ae2-f2514266feca" />
+              <option name="method" value="GET" />
+              <option name="name" value="Get all Data" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://localhost:8080/WebSortingAlgorithm_war/api/v1/data" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="W3siaWQiOjEsImxpc3QiOls1LDIsOSwxLDMsNyw5LDcwXSwic29ydEFsZ29yaXRobSI6bnVsbCwibGlua3MiOlt7InJlbCI6ImFsbC1kYXRhc2V0cyIsImhyZWYiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvV2ViU29ydGluZ0FsZ29yaXRobV93YXIvYXBpL3YxL2RhdGEifV19LHsiaWQiOjIsImxpc3QiOlsxNSwyNyw5LDEsMzcsNyw5LDcwXSwic29ydEFsZ29yaXRobSI6bnVsbCwibGlua3MiOlt7InJlbCI6ImFsbC1kYXRhc2V0cyIsImhyZWYiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvV2ViU29ydGluZ0FsZ29yaXRobV93YXIvYXBpL3YxL2RhdGEifV19XQ==" />
+              <option name="bodyString" value="[&#10;  {&#10;    &quot;id&quot;: 1,&#10;    &quot;list&quot;: [&#10;      5,&#10;      2,&#10;      9,&#10;      1,&#10;      3,&#10;      7,&#10;      9,&#10;      70&#10;    ],&#10;    &quot;sortAlgorithm&quot;: null,&#10;    &quot;links&quot;: [&#10;      {&#10;        &quot;rel&quot;: &quot;all-datasets&quot;,&#10;        &quot;href&quot;: &quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;&#10;      }&#10;    ]&#10;  },&#10;  {&#10;    &quot;id&quot;: 2,&#10;    &quot;list&quot;: [&#10;      15,&#10;      27,&#10;      9,&#10;      1,&#10;      37,&#10;      7,&#10;      9,&#10;      70&#10;    ],&#10;    &quot;sortAlgorithm&quot;: null,&#10;    &quot;links&quot;: [&#10;      {&#10;        &quot;rel&quot;: &quot;all-datasets&quot;,&#10;        &quot;href&quot;: &quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;&#10;      }&#10;    ]&#10;  }&#10;]" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 02 Dec 2024 17:57:16 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=20" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="75964bcd-4bfd-43eb-a8a2-13801b16e681" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="[{&quot;id&quot;:1,&quot;list&quot;:[5,2,9,1,3,7,9,70],&quot;sortAlgorithm&quot;:null,&quot;links&quot;:[{&quot;rel&quot;:&quot;all-datasets&quot;,&quot;href&quot;:&quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;}]},{&quot;id&quot;:2,&quot;list&quot;:[15,27,9,1,37,7,9,70],&quot;sortAlgorithm&quot;:null,&quot;links&quot;:[{&quot;rel&quot;:&quot;all-datasets&quot;,&quot;href&quot;:&quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;}]}]" />
+              <option name="size" value="316" />
+              <option name="time" value="4" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="09e6b839-fb75-4929-9ad1-15f0d1a49e1e" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1733162295907" />
+          <option name="id" value="4509dd5e-da23-4f91-aae4-b5aec3a47d7e" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="3813599c-f721-4af2-b00d-36342830bbd0" />
+              <option name="method" value="GET" />
+              <option name="name" value="Get data by Id" />
+              <option name="queryParams">
+                <list>
+                  <queryParamState>
+                    <option name="key" value="id" />
+                    <option name="value" value="2" />
+                  </queryParamState>
+                </list>
+              </option>
+              <option name="sortWeight" value="3000000" />
+              <option name="url" value="http://localhost:8080/WebSortingAlgorithm_war/api/v1/data?id=2" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="W3siaWQiOjEsImxpc3QiOls1LDIsOSwxLDMsNyw5LDcwXSwic29ydEFsZ29yaXRobSI6bnVsbCwibGlua3MiOlt7InJlbCI6ImFsbC1kYXRhc2V0cyIsImhyZWYiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvV2ViU29ydGluZ0FsZ29yaXRobV93YXIvYXBpL3YxL2RhdGEifV19LHsiaWQiOjIsImxpc3QiOlsxNSwyNyw5LDEsMzcsNyw5LDcwXSwic29ydEFsZ29yaXRobSI6bnVsbCwibGlua3MiOlt7InJlbCI6ImFsbC1kYXRhc2V0cyIsImhyZWYiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvV2ViU29ydGluZ0FsZ29yaXRobV93YXIvYXBpL3YxL2RhdGEifV19XQ==" />
+              <option name="bodyString" value="[&#10;  {&#10;    &quot;id&quot;: 1,&#10;    &quot;list&quot;: [&#10;      5,&#10;      2,&#10;      9,&#10;      1,&#10;      3,&#10;      7,&#10;      9,&#10;      70&#10;    ],&#10;    &quot;sortAlgorithm&quot;: null,&#10;    &quot;links&quot;: [&#10;      {&#10;        &quot;rel&quot;: &quot;all-datasets&quot;,&#10;        &quot;href&quot;: &quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;&#10;      }&#10;    ]&#10;  },&#10;  {&#10;    &quot;id&quot;: 2,&#10;    &quot;list&quot;: [&#10;      15,&#10;      27,&#10;      9,&#10;      1,&#10;      37,&#10;      7,&#10;      9,&#10;      70&#10;    ],&#10;    &quot;sortAlgorithm&quot;: null,&#10;    &quot;links&quot;: [&#10;      {&#10;        &quot;rel&quot;: &quot;all-datasets&quot;,&#10;        &quot;href&quot;: &quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;&#10;      }&#10;    ]&#10;  }&#10;]" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 02 Dec 2024 17:58:15 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=20" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="4509dd5e-da23-4f91-aae4-b5aec3a47d7e" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="[{&quot;id&quot;:1,&quot;list&quot;:[5,2,9,1,3,7,9,70],&quot;sortAlgorithm&quot;:null,&quot;links&quot;:[{&quot;rel&quot;:&quot;all-datasets&quot;,&quot;href&quot;:&quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;}]},{&quot;id&quot;:2,&quot;list&quot;:[15,27,9,1,37,7,9,70],&quot;sortAlgorithm&quot;:null,&quot;links&quot;:[{&quot;rel&quot;:&quot;all-datasets&quot;,&quot;href&quot;:&quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;}]}]" />
+              <option name="size" value="316" />
+              <option name="time" value="3" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="09e6b839-fb75-4929-9ad1-15f0d1a49e1e" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1733162347439" />
+          <option name="id" value="fca2849f-94af-4d23-8d64-bd11b9a9b436" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="3813599c-f721-4af2-b00d-36342830bbd0" />
+              <option name="method" value="GET" />
+              <option name="name" value="Get data by Id" />
+              <option name="queryParams">
+                <list>
+                  <queryParamState>
+                    <option name="disabled" value="true" />
+                    <option name="key" value="id" />
+                    <option name="value" value="2" />
+                  </queryParamState>
+                </list>
+              </option>
+              <option name="sortWeight" value="3000000" />
+              <option name="url" value="http://localhost:8080/WebSortingAlgorithm_war/api/v1/data/2" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="PCFkb2N0eXBlIGh0bWw+PGh0bWwgbGFuZz0iZW4iPjxoZWFkPjx0aXRsZT5IVFRQIFN0YXR1cyA1MDAg4oCTIEludGVybmFsIFNlcnZlciBFcnJvcjwvdGl0bGU+PHN0eWxlIHR5cGU9InRleHQvY3NzIj5ib2R5IHtmb250LWZhbWlseTpUYWhvbWEsQXJpYWwsc2Fucy1zZXJpZjt9IGgxLCBoMiwgaDMsIGIge2NvbG9yOndoaXRlO2JhY2tncm91bmQtY29sb3I6IzUyNUQ3Njt9IGgxIHtmb250LXNpemU6MjJweDt9IGgyIHtmb250LXNpemU6MTZweDt9IGgzIHtmb250LXNpemU6MTRweDt9IHAge2ZvbnQtc2l6ZToxMnB4O30gYSB7Y29sb3I6YmxhY2s7fSAubGluZSB7aGVpZ2h0OjFweDtiYWNrZ3JvdW5kLWNvbG9yOiM1MjVENzY7Ym9yZGVyOm5vbmU7fTwvc3R5bGU+PC9oZWFkPjxib2R5PjxoMT5IVFRQIFN0YXR1cyA1MDAg4oCTIEludGVybmFsIFNlcnZlciBFcnJvcjwvaDE+PGhyIGNsYXNzPSJsaW5lIiAvPjxwPjxiPlR5cGU8L2I+IEV4Y2VwdGlvbiBSZXBvcnQ8L3A+PHA+PGI+TWVzc2FnZTwvYj4gUmVxdWVzdCBwcm9jZXNzaW5nIGZhaWxlZDogamF2YS5sYW5nLklsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbjogTmFtZSBmb3IgYXJndW1lbnQgb2YgdHlwZSBbaW50XSBub3Qgc3BlY2lmaWVkLCBhbmQgcGFyYW1ldGVyIG5hbWUgaW5mb3JtYXRpb24gbm90IGF2YWlsYWJsZSB2aWEgcmVmbGVjdGlvbi4gRW5zdXJlIHRoYXQgdGhlIGNvbXBpbGVyIHVzZXMgdGhlICYjMzk7LXBhcmFtZXRlcnMmIzM5OyBmbGFnLjwvcD48cD48Yj5EZXNjcmlwdGlvbjwvYj4gVGhlIHNlcnZlciBlbmNvdW50ZXJlZCBhbiB1bmV4cGVjdGVkIGNvbmRpdGlvbiB0aGF0IHByZXZlbnRlZCBpdCBmcm9tIGZ1bGZpbGxpbmcgdGhlIHJlcXVlc3QuPC9wPjxwPjxiPkV4Y2VwdGlvbjwvYj48L3A+PHByZT5qYWthcnRhLnNlcnZsZXQuU2VydmxldEV4Y2VwdGlvbjogUmVxdWVzdCBwcm9jZXNzaW5nIGZhaWxlZDogamF2YS5sYW5nLklsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbjogTmFtZSBmb3IgYXJndW1lbnQgb2YgdHlwZSBbaW50XSBub3Qgc3BlY2lmaWVkLCBhbmQgcGFyYW1ldGVyIG5hbWUgaW5mb3JtYXRpb24gbm90IGF2YWlsYWJsZSB2aWEgcmVmbGVjdGlvbi4gRW5zdXJlIHRoYXQgdGhlIGNvbXBpbGVyIHVzZXMgdGhlICYjMzk7LXBhcmFtZXRlcnMmIzM5OyBmbGFnLg0KCW9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQuRnJhbWV3b3JrU2VydmxldC5wcm9jZXNzUmVxdWVzdChGcmFtZXdvcmtTZXJ2bGV0LmphdmE6MTAyMikNCglvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5zZXJ2bGV0LkZyYW1ld29ya1NlcnZsZXQuZG9HZXQoRnJhbWV3b3JrU2VydmxldC5qYXZhOjkwMykNCglqYWthcnRhLnNlcnZsZXQuaHR0cC5IdHRwU2VydmxldC5zZXJ2aWNlKEh0dHBTZXJ2bGV0LmphdmE6NjE5KQ0KCW9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQuRnJhbWV3b3JrU2VydmxldC5zZXJ2aWNlKEZyYW1ld29ya1NlcnZsZXQuamF2YTo4ODUpDQoJamFrYXJ0YS5zZXJ2bGV0Lmh0dHAuSHR0cFNlcnZsZXQuc2VydmljZShIdHRwU2VydmxldC5qYXZhOjcxNikNCglvcmcuYXBhY2hlLnRvbWNhdC53ZWJzb2NrZXQuc2VydmVyLldzRmlsdGVyLmRvRmlsdGVyKFdzRmlsdGVyLmphdmE6NTEpDQoJb3JnLmFwYWNoZS5jYXRhbGluYS5hdXRoZW50aWNhdG9yLkF1dGhlbnRpY2F0b3JCYXNlLmludm9rZShBdXRoZW50aWNhdG9yQmFzZS5qYXZhOjQ4MykNCglvcmcuYXBhY2hlLmNhdGFsaW5hLnZhbHZlcy5FcnJvclJlcG9ydFZhbHZlLmludm9rZShFcnJvclJlcG9ydFZhbHZlLmphdmE6OTMpDQoJb3JnLmFwYWNoZS5jYXRhbGluYS52YWx2ZXMuQWJzdHJhY3RBY2Nlc3NMb2dWYWx2ZS5pbnZva2UoQWJzdHJhY3RBY2Nlc3NMb2dWYWx2ZS5qYXZhOjY2MykNCglvcmcuYXBhY2hlLmNhdGFsaW5hLmNvbm5lY3Rvci5Db3lvdGVBZGFwdGVyLnNlcnZpY2UoQ295b3RlQWRhcHRlci5qYXZhOjM0MikNCglvcmcuYXBhY2hlLmNveW90ZS5odHRwMTEuSHR0cDExUHJvY2Vzc29yLnNlcnZpY2UoSHR0cDExUHJvY2Vzc29yLmphdmE6Mzk1KQ0KCW9yZy5hcGFjaGUuY295b3RlLkFic3RyYWN0UHJvY2Vzc29yTGlnaHQucHJvY2VzcyhBYnN0cmFjdFByb2Nlc3NvckxpZ2h0LmphdmE6NjMpDQoJb3JnLmFwYWNoZS5jb3lvdGUuQWJzdHJhY3RQcm90b2NvbCRDb25uZWN0aW9uSGFuZGxlci5wcm9jZXNzKEFic3RyYWN0UHJvdG9jb2wuamF2YTo5MDUpDQoJb3JnLmFwYWNoZS50b21jYXQudXRpbC5uZXQuTmlvRW5kcG9pbnQkU29ja2V0UHJvY2Vzc29yLmRvUnVuKE5pb0VuZHBvaW50LmphdmE6MTc0NikNCglvcmcuYXBhY2hlLnRvbWNhdC51dGlsLm5ldC5Tb2NrZXRQcm9jZXNzb3JCYXNlLnJ1bihTb2NrZXRQcm9jZXNzb3JCYXNlLmphdmE6NTIpDQoJb3JnLmFwYWNoZS50b21jYXQudXRpbC50aHJlYWRzLlRocmVhZFBvb2xFeGVjdXRvci5ydW5Xb3JrZXIoVGhyZWFkUG9vbEV4ZWN1dG9yLmphdmE6MTE0OCkNCglvcmcuYXBhY2hlLnRvbWNhdC51dGlsLnRocmVhZHMuVGhyZWFkUG9vbEV4ZWN1dG9yJFdvcmtlci5ydW4oVGhyZWFkUG9vbEV4ZWN1dG9yLmphdmE6NjM2KQ0KCW9yZy5hcGFjaGUudG9tY2F0LnV0aWwudGhyZWFkcy5UYXNrVGhyZWFkJFdyYXBwaW5nUnVubmFibGUucnVuKFRhc2tUaHJlYWQuamF2YTo2MykNCglqYXZhLmJhc2UmIzQ3O2phdmEubGFuZy5UaHJlYWQucnVuKFRocmVhZC5qYXZhOjE1ODMpDQo8L3ByZT48cD48Yj5Sb290IENhdXNlPC9iPjwvcD48cHJlPmphdmEubGFuZy5JbGxlZ2FsQXJndW1lbnRFeGNlcHRpb246IE5hbWUgZm9yIGFyZ3VtZW50IG9mIHR5cGUgW2ludF0gbm90IHNwZWNpZmllZCwgYW5kIHBhcmFtZXRlciBuYW1lIGluZm9ybWF0aW9uIG5vdCBhdmFpbGFibGUgdmlhIHJlZmxlY3Rpb24uIEVuc3VyZSB0aGF0IHRoZSBjb21waWxlciB1c2VzIHRoZSAmIzM5Oy1wYXJhbWV0ZXJzJiMzOTsgZmxhZy4NCglvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5tZXRob2QuYW5ub3RhdGlvbi5BYnN0cmFjdE5hbWVkVmFsdWVNZXRob2RBcmd1bWVudFJlc29sdmVyLnVwZGF0ZU5hbWVkVmFsdWVJbmZvKEFic3RyYWN0TmFtZWRWYWx1ZU1ldGhvZEFyZ3VtZW50UmVzb2x2ZXIuamF2YToxODYpDQoJb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIubWV0aG9kLmFubm90YXRpb24uQWJzdHJhY3ROYW1lZFZhbHVlTWV0aG9kQXJndW1lbnRSZXNvbHZlci5nZXROYW1lZFZhbHVlSW5mbyhBYnN0cmFjdE5hbWVkVmFsdWVNZXRob2RBcmd1bWVudFJlc29sdmVyLmphdmE6MTYxKQ0KCW9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLm1ldGhvZC5hbm5vdGF0aW9uLkFic3RyYWN0TmFtZWRWYWx1ZU1ldGhvZEFyZ3VtZW50UmVzb2x2ZXIucmVzb2x2ZUFyZ3VtZW50KEFic3RyYWN0TmFtZWRWYWx1ZU1ldGhvZEFyZ3VtZW50UmVzb2x2ZXIuamF2YToxMDcpDQoJb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIubWV0aG9kLnN1cHBvcnQuSGFuZGxlck1ldGhvZEFyZ3VtZW50UmVzb2x2ZXJDb21wb3NpdGUucmVzb2x2ZUFyZ3VtZW50KEhhbmRsZXJNZXRob2RBcmd1bWVudFJlc29sdmVyQ29tcG9zaXRlLmphdmE6MTIyKQ0KCW9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLm1ldGhvZC5zdXBwb3J0Lkludm9jYWJsZUhhbmRsZXJNZXRob2QuZ2V0TWV0aG9kQXJndW1lbnRWYWx1ZXMoSW52b2NhYmxlSGFuZGxlck1ldGhvZC5qYXZhOjIyNCkNCglvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5tZXRob2Quc3VwcG9ydC5JbnZvY2FibGVIYW5kbGVyTWV0aG9kLmludm9rZUZvclJlcXVlc3QoSW52b2NhYmxlSGFuZGxlck1ldGhvZC5qYXZhOjE3OCkNCglvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5zZXJ2bGV0Lm12Yy5tZXRob2QuYW5ub3RhdGlvbi5TZXJ2bGV0SW52b2NhYmxlSGFuZGxlck1ldGhvZC5pbnZva2VBbmRIYW5kbGUoU2VydmxldEludm9jYWJsZUhhbmRsZXJNZXRob2QuamF2YToxMTgpDQoJb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuc2VydmxldC5tdmMubWV0aG9kLmFubm90YXRpb24uUmVxdWVzdE1hcHBpbmdIYW5kbGVyQWRhcHRlci5pbnZva2VIYW5kbGVyTWV0aG9kKFJlcXVlc3RNYXBwaW5nSGFuZGxlckFkYXB0ZXIuamF2YTo5ODYpDQoJb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuc2VydmxldC5tdmMubWV0aG9kLmFubm90YXRpb24uUmVxdWVzdE1hcHBpbmdIYW5kbGVyQWRhcHRlci5oYW5kbGVJbnRlcm5hbChSZXF1ZXN0TWFwcGluZ0hhbmRsZXJBZGFwdGVyLmphdmE6ODkxKQ0KCW9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQubXZjLm1ldGhvZC5BYnN0cmFjdEhhbmRsZXJNZXRob2RBZGFwdGVyLmhhbmRsZShBYnN0cmFjdEhhbmRsZXJNZXRob2RBZGFwdGVyLmphdmE6ODcpDQoJb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuc2VydmxldC5EaXNwYXRjaGVyU2VydmxldC5kb0Rpc3BhdGNoKERpc3BhdGNoZXJTZXJ2bGV0LmphdmE6MTA4OCkNCglvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5zZXJ2bGV0LkRpc3BhdGNoZXJTZXJ2bGV0LmRvU2VydmljZShEaXNwYXRjaGVyU2VydmxldC5qYXZhOjk3OCkNCglvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5zZXJ2bGV0LkZyYW1ld29ya1NlcnZsZXQucHJvY2Vzc1JlcXVlc3QoRnJhbWV3b3JrU2VydmxldC5qYXZhOjEwMTQpDQoJb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuc2VydmxldC5GcmFtZXdvcmtTZXJ2bGV0LmRvR2V0KEZyYW1ld29ya1NlcnZsZXQuamF2YTo5MDMpDQoJamFrYXJ0YS5zZXJ2bGV0Lmh0dHAuSHR0cFNlcnZsZXQuc2VydmljZShIdHRwU2VydmxldC5qYXZhOjYxOSkNCglvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5zZXJ2bGV0LkZyYW1ld29ya1NlcnZsZXQuc2VydmljZShGcmFtZXdvcmtTZXJ2bGV0LmphdmE6ODg1KQ0KCWpha2FydGEuc2VydmxldC5odHRwLkh0dHBTZXJ2bGV0LnNlcnZpY2UoSHR0cFNlcnZsZXQuamF2YTo3MTYpDQoJb3JnLmFwYWNoZS50b21jYXQud2Vic29ja2V0LnNlcnZlci5Xc0ZpbHRlci5kb0ZpbHRlcihXc0ZpbHRlci5qYXZhOjUxKQ0KCW9yZy5hcGFjaGUuY2F0YWxpbmEuYXV0aGVudGljYXRvci5BdXRoZW50aWNhdG9yQmFzZS5pbnZva2UoQXV0aGVudGljYXRvckJhc2UuamF2YTo0ODMpDQoJb3JnLmFwYWNoZS5jYXRhbGluYS52YWx2ZXMuRXJyb3JSZXBvcnRWYWx2ZS5pbnZva2UoRXJyb3JSZXBvcnRWYWx2ZS5qYXZhOjkzKQ0KCW9yZy5hcGFjaGUuY2F0YWxpbmEudmFsdmVzLkFic3RyYWN0QWNjZXNzTG9nVmFsdmUuaW52b2tlKEFic3RyYWN0QWNjZXNzTG9nVmFsdmUuamF2YTo2NjMpDQoJb3JnLmFwYWNoZS5jYXRhbGluYS5jb25uZWN0b3IuQ295b3RlQWRhcHRlci5zZXJ2aWNlKENveW90ZUFkYXB0ZXIuamF2YTozNDIpDQoJb3JnLmFwYWNoZS5jb3lvdGUuaHR0cDExLkh0dHAxMVByb2Nlc3Nvci5zZXJ2aWNlKEh0dHAxMVByb2Nlc3Nvci5qYXZhOjM5NSkNCglvcmcuYXBhY2hlLmNveW90ZS5BYnN0cmFjdFByb2Nlc3NvckxpZ2h0LnByb2Nlc3MoQWJzdHJhY3RQcm9jZXNzb3JMaWdodC5qYXZhOjYzKQ0KCW9yZy5hcGFjaGUuY295b3RlLkFic3RyYWN0UHJvdG9jb2wkQ29ubmVjdGlvbkhhbmRsZXIucHJvY2VzcyhBYnN0cmFjdFByb3RvY29sLmphdmE6OTA1KQ0KCW9yZy5hcGFjaGUudG9tY2F0LnV0aWwubmV0Lk5pb0VuZHBvaW50JFNvY2tldFByb2Nlc3Nvci5kb1J1bihOaW9FbmRwb2ludC5qYXZhOjE3NDYpDQoJb3JnLmFwYWNoZS50b21jYXQudXRpbC5uZXQuU29ja2V0UHJvY2Vzc29yQmFzZS5ydW4oU29ja2V0UHJvY2Vzc29yQmFzZS5qYXZhOjUyKQ0KCW9yZy5hcGFjaGUudG9tY2F0LnV0aWwudGhyZWFkcy5UaHJlYWRQb29sRXhlY3V0b3IucnVuV29ya2VyKFRocmVhZFBvb2xFeGVjdXRvci5qYXZhOjExNDgpDQoJb3JnLmFwYWNoZS50b21jYXQudXRpbC50aHJlYWRzLlRocmVhZFBvb2xFeGVjdXRvciRXb3JrZXIucnVuKFRocmVhZFBvb2xFeGVjdXRvci5qYXZhOjYzNikNCglvcmcuYXBhY2hlLnRvbWNhdC51dGlsLnRocmVhZHMuVGFza1RocmVhZCRXcmFwcGluZ1J1bm5hYmxlLnJ1bihUYXNrVGhyZWFkLmphdmE6NjMpDQoJamF2YS5iYXNlJiM0NztqYXZhLmxhbmcuVGhyZWFkLnJ1bihUaHJlYWQuamF2YToxNTgzKQ0KPC9wcmU+PHA+PGI+Tm90ZTwvYj4gVGhlIGZ1bGwgc3RhY2sgdHJhY2Ugb2YgdGhlIHJvb3QgY2F1c2UgaXMgYXZhaWxhYmxlIGluIHRoZSBzZXJ2ZXIgbG9ncy48L3A+PGhyIGNsYXNzPSJsaW5lIiAvPjxoMz5BcGFjaGUgVG9tY2F0LzExLjAuMTwvaDM+PC9ib2R5PjwvaHRtbD4=" />
+              <option name="bodyString" value="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;title&gt;HTTP Status 500 – Internal Server Error&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status 500 – Internal Server Error&lt;/h1&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;p&gt;&lt;b&gt;Type&lt;/b&gt; Exception Report&lt;/p&gt;&lt;p&gt;&lt;b&gt;Message&lt;/b&gt; Request processing failed: java.lang.IllegalArgumentException: Name for argument of type [int] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the &amp;#39;-parameters&amp;#39; flag.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description&lt;/b&gt; The server encountered an unexpected condition that prevented it from fulfilling the request.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Exception&lt;/b&gt;&lt;/p&gt;&lt;pre&gt;jakarta.servlet.ServletException: Request processing failed: java.lang.IllegalArgumentException: Name for argument of type [int] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the &amp;#39;-parameters&amp;#39; flag.&#10;&#9;org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1022)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)&#10;&#9;jakarta.servlet.http.HttpServlet.service(HttpServlet.java:619)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)&#10;&#9;jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)&#10;&#9;org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)&#10;&#9;org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)&#10;&#9;org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)&#10;&#9;org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)&#10;&#9;org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)&#10;&#9;org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:395)&#10;&#9;org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)&#10;&#9;org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)&#10;&#9;org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)&#10;&#9;org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)&#10;&#9;org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)&#10;&#9;org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)&#10;&#9;org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)&#10;&#9;java.base&amp;#47;java.lang.Thread.run(Thread.java:1583)&#10;&lt;/pre&gt;&lt;p&gt;&lt;b&gt;Root Cause&lt;/b&gt;&lt;/p&gt;&lt;pre&gt;java.lang.IllegalArgumentException: Name for argument of type [int] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the &amp;#39;-parameters&amp;#39; flag.&#10;&#9;org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.updateNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:186)&#10;&#9;org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.getNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:161)&#10;&#9;org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:107)&#10;&#9;org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)&#10;&#9;org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)&#10;&#9;org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)&#10;&#9;org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)&#10;&#9;org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)&#10;&#9;org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)&#10;&#9;org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)&#10;&#9;org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)&#10;&#9;org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)&#10;&#9;jakarta.servlet.http.HttpServlet.service(HttpServlet.java:619)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)&#10;&#9;jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)&#10;&#9;org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)&#10;&#9;org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)&#10;&#9;org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)&#10;&#9;org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)&#10;&#9;org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)&#10;&#9;org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:395)&#10;&#9;org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)&#10;&#9;org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)&#10;&#9;org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)&#10;&#9;org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)&#10;&#9;org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)&#10;&#9;org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)&#10;&#9;org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)&#10;&#9;java.base&amp;#47;java.lang.Thread.run(Thread.java:1583)&#10;&lt;/pre&gt;&lt;p&gt;&lt;b&gt;Note&lt;/b&gt; The full stack trace of the root cause is available in the server logs.&lt;/p&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;h3&gt;Apache Tomcat/11.0.1&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="code" value="500" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html;charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Language" />
+                    <option name="value" value="en" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="6227" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 02 Dec 2024 17:59:07 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="close" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="fca2849f-94af-4d23-8d64-bd11b9a9b436" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;title&gt;HTTP Status 500 – Internal Server Error&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status 500 – Internal Server Error&lt;/h1&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;p&gt;&lt;b&gt;Type&lt;/b&gt; Exception Report&lt;/p&gt;&lt;p&gt;&lt;b&gt;Message&lt;/b&gt; Request processing failed: java.lang.IllegalArgumentException: Name for argument of type [int] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the &amp;#39;-parameters&amp;#39; flag.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description&lt;/b&gt; The server encountered an unexpected condition that prevented it from fulfilling the request.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Exception&lt;/b&gt;&lt;/p&gt;&lt;pre&gt;jakarta.servlet.ServletException: Request processing failed: java.lang.IllegalArgumentException: Name for argument of type [int] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the &amp;#39;-parameters&amp;#39; flag.&#10;&#9;org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1022)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)&#10;&#9;jakarta.servlet.http.HttpServlet.service(HttpServlet.java:619)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)&#10;&#9;jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)&#10;&#9;org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)&#10;&#9;org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)&#10;&#9;org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)&#10;&#9;org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)&#10;&#9;org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)&#10;&#9;org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:395)&#10;&#9;org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)&#10;&#9;org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)&#10;&#9;org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)&#10;&#9;org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)&#10;&#9;org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)&#10;&#9;org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)&#10;&#9;org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)&#10;&#9;java.base&amp;#47;java.lang.Thread.run(Thread.java:1583)&#10;&lt;/pre&gt;&lt;p&gt;&lt;b&gt;Root Cause&lt;/b&gt;&lt;/p&gt;&lt;pre&gt;java.lang.IllegalArgumentException: Name for argument of type [int] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the &amp;#39;-parameters&amp;#39; flag.&#10;&#9;org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.updateNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:186)&#10;&#9;org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.getNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:161)&#10;&#9;org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:107)&#10;&#9;org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)&#10;&#9;org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)&#10;&#9;org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)&#10;&#9;org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)&#10;&#9;org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)&#10;&#9;org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)&#10;&#9;org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)&#10;&#9;org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)&#10;&#9;org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)&#10;&#9;jakarta.servlet.http.HttpServlet.service(HttpServlet.java:619)&#10;&#9;org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)&#10;&#9;jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)&#10;&#9;org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)&#10;&#9;org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)&#10;&#9;org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)&#10;&#9;org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)&#10;&#9;org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)&#10;&#9;org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:395)&#10;&#9;org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)&#10;&#9;org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)&#10;&#9;org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)&#10;&#9;org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)&#10;&#9;org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)&#10;&#9;org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)&#10;&#9;org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)&#10;&#9;java.base&amp;#47;java.lang.Thread.run(Thread.java:1583)&#10;&lt;/pre&gt;&lt;p&gt;&lt;b&gt;Note&lt;/b&gt; The full stack trace of the root cause is available in the server logs.&lt;/p&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;h3&gt;Apache Tomcat/11.0.1&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="size" value="6227" />
+              <option name="time" value="30" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="09e6b839-fb75-4929-9ad1-15f0d1a49e1e" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1733162661754" />
+          <option name="id" value="77e101ce-dd56-4dbd-b581-861df0cc75f2" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="e126fe85-7c74-4bbd-8ae2-f2514266feca" />
+              <option name="method" value="GET" />
+              <option name="name" value="Get all Data" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://localhost:8080/WebSortingAlgorithm_war/api/v1/data" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="W10=" />
+              <option name="bodyString" value="[]" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 02 Dec 2024 18:04:21 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=20" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="77e101ce-dd56-4dbd-b581-861df0cc75f2" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="[]" />
+              <option name="size" value="2" />
+              <option name="time" value="151" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="09e6b839-fb75-4929-9ad1-15f0d1a49e1e" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1733162673032" />
+          <option name="id" value="8aa262c7-865a-42b1-82e7-aab7157530dc" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="[15, 27, 9, 1, 37, 7, 9, 70]&#10;" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="587fd534-86ac-46f8-ad19-6a0aa0ff5f89" />
+              <option name="method" value="POST" />
+              <option name="name" value="CreateData" />
+              <option name="sortWeight" value="2000000" />
+              <option name="url" value="http://localhost:8080/WebSortingAlgorithm_war/api/v1/data/add" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJpZCI6MSwibGlzdCI6WzE1LDI3LDksMSwzNyw3LDksNzBdLCJzb3J0QWxnb3JpdGhtIjpudWxsLCJsaW5rcyI6W3sicmVsIjoiYWxsLWRhdGFzZXRzIiwiaHJlZiI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9XZWJTb3J0aW5nQWxnb3JpdGhtX3dhci9hcGkvdjEvZGF0YSJ9XX0=" />
+              <option name="bodyString" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;list&quot;: [&#10;    15,&#10;    27,&#10;    9,&#10;    1,&#10;    37,&#10;    7,&#10;    9,&#10;    70&#10;  ],&#10;  &quot;sortAlgorithm&quot;: null,&#10;  &quot;links&quot;: [&#10;    {&#10;      &quot;rel&quot;: &quot;all-datasets&quot;,&#10;      &quot;href&quot;: &quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 02 Dec 2024 18:04:33 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=20" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="8aa262c7-865a-42b1-82e7-aab7157530dc" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;id&quot;:1,&quot;list&quot;:[15,27,9,1,37,7,9,70],&quot;sortAlgorithm&quot;:null,&quot;links&quot;:[{&quot;rel&quot;:&quot;all-datasets&quot;,&quot;href&quot;:&quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;}]}" />
+              <option name="size" value="158" />
+              <option name="time" value="423" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="09e6b839-fb75-4929-9ad1-15f0d1a49e1e" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1733162707313" />
+          <option name="id" value="1313ee30-34f6-4f6b-a9d8-f9c27bbb6f7b" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="[5, 12, 34, 56, 78, 21, 7, 45]&#10;" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="587fd534-86ac-46f8-ad19-6a0aa0ff5f89" />
+              <option name="method" value="POST" />
+              <option name="name" value="CreateData" />
+              <option name="sortWeight" value="2000000" />
+              <option name="url" value="http://localhost:8080/WebSortingAlgorithm_war/api/v1/data/add" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJpZCI6MiwibGlzdCI6WzUsMTIsMzQsNTYsNzgsMjEsNyw0NV0sInNvcnRBbGdvcml0aG0iOm51bGwsImxpbmtzIjpbeyJyZWwiOiJhbGwtZGF0YXNldHMiLCJocmVmIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL1dlYlNvcnRpbmdBbGdvcml0aG1fd2FyL2FwaS92MS9kYXRhIn1dfQ==" />
+              <option name="bodyString" value="{&#10;  &quot;id&quot;: 2,&#10;  &quot;list&quot;: [&#10;    5,&#10;    12,&#10;    34,&#10;    56,&#10;    78,&#10;    21,&#10;    7,&#10;    45&#10;  ],&#10;  &quot;sortAlgorithm&quot;: null,&#10;  &quot;links&quot;: [&#10;    {&#10;      &quot;rel&quot;: &quot;all-datasets&quot;,&#10;      &quot;href&quot;: &quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 02 Dec 2024 18:05:07 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=20" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="1313ee30-34f6-4f6b-a9d8-f9c27bbb6f7b" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;id&quot;:2,&quot;list&quot;:[5,12,34,56,78,21,7,45],&quot;sortAlgorithm&quot;:null,&quot;links&quot;:[{&quot;rel&quot;:&quot;all-datasets&quot;,&quot;href&quot;:&quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;}]}" />
+              <option name="size" value="160" />
+              <option name="time" value="13" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="09e6b839-fb75-4929-9ad1-15f0d1a49e1e" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1733162818393" />
+          <option name="id" value="85d5d27f-e581-4fb2-ade0-6c81b06934f2" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="[11, 23, 67, 45, 89, 90, 33, 4]" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="587fd534-86ac-46f8-ad19-6a0aa0ff5f89" />
+              <option name="method" value="POST" />
+              <option name="name" value="CreateData" />
+              <option name="sortWeight" value="2000000" />
+              <option name="url" value="http://localhost:8080/WebSortingAlgorithm_war/api/v1/data/add" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJpZCI6MywibGlzdCI6WzExLDIzLDY3LDQ1LDg5LDkwLDMzLDRdLCJzb3J0QWxnb3JpdGhtIjpudWxsLCJsaW5rcyI6W3sicmVsIjoiYWxsLWRhdGFzZXRzIiwiaHJlZiI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9XZWJTb3J0aW5nQWxnb3JpdGhtX3dhci9hcGkvdjEvZGF0YSJ9XX0=" />
+              <option name="bodyString" value="{&#10;  &quot;id&quot;: 3,&#10;  &quot;list&quot;: [&#10;    11,&#10;    23,&#10;    67,&#10;    45,&#10;    89,&#10;    90,&#10;    33,&#10;    4&#10;  ],&#10;  &quot;sortAlgorithm&quot;: null,&#10;  &quot;links&quot;: [&#10;    {&#10;      &quot;rel&quot;: &quot;all-datasets&quot;,&#10;      &quot;href&quot;: &quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 02 Dec 2024 18:06:58 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=20" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="85d5d27f-e581-4fb2-ade0-6c81b06934f2" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;id&quot;:3,&quot;list&quot;:[11,23,67,45,89,90,33,4],&quot;sortAlgorithm&quot;:null,&quot;links&quot;:[{&quot;rel&quot;:&quot;all-datasets&quot;,&quot;href&quot;:&quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;}]}" />
+              <option name="size" value="161" />
+              <option name="time" value="10" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="09e6b839-fb75-4929-9ad1-15f0d1a49e1e" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1733162824369" />
+          <option name="id" value="d867927b-2817-48f5-8437-e7358ab50ecc" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="e126fe85-7c74-4bbd-8ae2-f2514266feca" />
+              <option name="method" value="GET" />
+              <option name="name" value="Get all Data" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://localhost:8080/WebSortingAlgorithm_war/api/v1/data" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="W3siaWQiOjEsImxpc3QiOlsxNSwyNyw5LDEsMzcsNyw5LDcwXSwic29ydEFsZ29yaXRobSI6bnVsbCwibGlua3MiOlt7InJlbCI6ImFsbC1kYXRhc2V0cyIsImhyZWYiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvV2ViU29ydGluZ0FsZ29yaXRobV93YXIvYXBpL3YxL2RhdGEifV19LHsiaWQiOjIsImxpc3QiOls1LDEyLDM0LDU2LDc4LDIxLDcsNDVdLCJzb3J0QWxnb3JpdGhtIjpudWxsLCJsaW5rcyI6W3sicmVsIjoiYWxsLWRhdGFzZXRzIiwiaHJlZiI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9XZWJTb3J0aW5nQWxnb3JpdGhtX3dhci9hcGkvdjEvZGF0YSJ9XX0seyJpZCI6MywibGlzdCI6WzExLDIzLDY3LDQ1LDg5LDkwLDMzLDRdLCJzb3J0QWxnb3JpdGhtIjpudWxsLCJsaW5rcyI6W3sicmVsIjoiYWxsLWRhdGFzZXRzIiwiaHJlZiI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9XZWJTb3J0aW5nQWxnb3JpdGhtX3dhci9hcGkvdjEvZGF0YSJ9XX1d" />
+              <option name="bodyString" value="[&#10;  {&#10;    &quot;id&quot;: 1,&#10;    &quot;list&quot;: [&#10;      15,&#10;      27,&#10;      9,&#10;      1,&#10;      37,&#10;      7,&#10;      9,&#10;      70&#10;    ],&#10;    &quot;sortAlgorithm&quot;: null,&#10;    &quot;links&quot;: [&#10;      {&#10;        &quot;rel&quot;: &quot;all-datasets&quot;,&#10;        &quot;href&quot;: &quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;&#10;      }&#10;    ]&#10;  },&#10;  {&#10;    &quot;id&quot;: 2,&#10;    &quot;list&quot;: [&#10;      5,&#10;      12,&#10;      34,&#10;      56,&#10;      78,&#10;      21,&#10;      7,&#10;      45&#10;    ],&#10;    &quot;sortAlgorithm&quot;: null,&#10;    &quot;links&quot;: [&#10;      {&#10;        &quot;rel&quot;: &quot;all-datasets&quot;,&#10;        &quot;href&quot;: &quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;&#10;      }&#10;    ]&#10;  },&#10;  {&#10;    &quot;id&quot;: 3,&#10;    &quot;list&quot;: [&#10;      11,&#10;      23,&#10;      67,&#10;      45,&#10;      89,&#10;      90,&#10;      33,&#10;      4&#10;    ],&#10;    &quot;sortAlgorithm&quot;: null,&#10;    &quot;links&quot;: [&#10;      {&#10;        &quot;rel&quot;: &quot;all-datasets&quot;,&#10;        &quot;href&quot;: &quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;&#10;      }&#10;    ]&#10;  }&#10;]" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 02 Dec 2024 18:07:04 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=20" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="d867927b-2817-48f5-8437-e7358ab50ecc" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="[{&quot;id&quot;:1,&quot;list&quot;:[15,27,9,1,37,7,9,70],&quot;sortAlgorithm&quot;:null,&quot;links&quot;:[{&quot;rel&quot;:&quot;all-datasets&quot;,&quot;href&quot;:&quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;}]},{&quot;id&quot;:2,&quot;list&quot;:[5,12,34,56,78,21,7,45],&quot;sortAlgorithm&quot;:null,&quot;links&quot;:[{&quot;rel&quot;:&quot;all-datasets&quot;,&quot;href&quot;:&quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;}]},{&quot;id&quot;:3,&quot;list&quot;:[11,23,67,45,89,90,33,4],&quot;sortAlgorithm&quot;:null,&quot;links&quot;:[{&quot;rel&quot;:&quot;all-datasets&quot;,&quot;href&quot;:&quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;}]}]" />
+              <option name="size" value="483" />
+              <option name="time" value="4" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="09e6b839-fb75-4929-9ad1-15f0d1a49e1e" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1733162834729" />
+          <option name="id" value="a0cdea49-6060-4ca3-82ab-06f8dbec20f5" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="3813599c-f721-4af2-b00d-36342830bbd0" />
+              <option name="method" value="GET" />
+              <option name="name" value="Get data by Id" />
+              <option name="queryParams">
+                <list>
+                  <queryParamState>
+                    <option name="disabled" value="true" />
+                    <option name="key" value="id" />
+                    <option name="value" value="2" />
+                  </queryParamState>
+                </list>
+              </option>
+              <option name="sortWeight" value="3000000" />
+              <option name="url" value="http://localhost:8080/WebSortingAlgorithm_war/api/v1/data/2" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJpZCI6MiwibGlzdCI6WzUsMTIsMzQsNTYsNzgsMjEsNyw0NV0sInNvcnRBbGdvcml0aG0iOm51bGwsImxpbmtzIjpbeyJyZWwiOiJhbGwtZGF0YXNldHMiLCJocmVmIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL1dlYlNvcnRpbmdBbGdvcml0aG1fd2FyL2FwaS92MS9kYXRhIn0seyJyZWwiOiJhbGwtZGF0YXNldHMiLCJocmVmIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL1dlYlNvcnRpbmdBbGdvcml0aG1fd2FyL2FwaS92MS9kYXRhIn1dfQ==" />
+              <option name="bodyString" value="{&#10;  &quot;id&quot;: 2,&#10;  &quot;list&quot;: [&#10;    5,&#10;    12,&#10;    34,&#10;    56,&#10;    78,&#10;    21,&#10;    7,&#10;    45&#10;  ],&#10;  &quot;sortAlgorithm&quot;: null,&#10;  &quot;links&quot;: [&#10;    {&#10;      &quot;rel&quot;: &quot;all-datasets&quot;,&#10;      &quot;href&quot;: &quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;&#10;    },&#10;    {&#10;      &quot;rel&quot;: &quot;all-datasets&quot;,&#10;      &quot;href&quot;: &quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 02 Dec 2024 18:07:14 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=20" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="a0cdea49-6060-4ca3-82ab-06f8dbec20f5" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;id&quot;:2,&quot;list&quot;:[5,12,34,56,78,21,7,45],&quot;sortAlgorithm&quot;:null,&quot;links&quot;:[{&quot;rel&quot;:&quot;all-datasets&quot;,&quot;href&quot;:&quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;},{&quot;rel&quot;:&quot;all-datasets&quot;,&quot;href&quot;:&quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;}]}" />
+              <option name="size" value="250" />
+              <option name="time" value="26" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="09e6b839-fb75-4929-9ad1-15f0d1a49e1e" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1733162841438" />
+          <option name="id" value="1f96992d-e31f-4d2b-acd3-831491c33341" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="3813599c-f721-4af2-b00d-36342830bbd0" />
+              <option name="method" value="GET" />
+              <option name="name" value="Get data by Id" />
+              <option name="queryParams">
+                <list>
+                  <queryParamState>
+                    <option name="disabled" value="true" />
+                    <option name="key" value="id" />
+                    <option name="value" value="2" />
+                  </queryParamState>
+                </list>
+              </option>
+              <option name="sortWeight" value="3000000" />
+              <option name="url" value="http://localhost:8080/WebSortingAlgorithm_war/api/v1/data/1" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJpZCI6MSwibGlzdCI6WzE1LDI3LDksMSwzNyw3LDksNzBdLCJzb3J0QWxnb3JpdGhtIjpudWxsLCJsaW5rcyI6W3sicmVsIjoiYWxsLWRhdGFzZXRzIiwiaHJlZiI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9XZWJTb3J0aW5nQWxnb3JpdGhtX3dhci9hcGkvdjEvZGF0YSJ9LHsicmVsIjoiYWxsLWRhdGFzZXRzIiwiaHJlZiI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9XZWJTb3J0aW5nQWxnb3JpdGhtX3dhci9hcGkvdjEvZGF0YSJ9XX0=" />
+              <option name="bodyString" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;list&quot;: [&#10;    15,&#10;    27,&#10;    9,&#10;    1,&#10;    37,&#10;    7,&#10;    9,&#10;    70&#10;  ],&#10;  &quot;sortAlgorithm&quot;: null,&#10;  &quot;links&quot;: [&#10;    {&#10;      &quot;rel&quot;: &quot;all-datasets&quot;,&#10;      &quot;href&quot;: &quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;&#10;    },&#10;    {&#10;      &quot;rel&quot;: &quot;all-datasets&quot;,&#10;      &quot;href&quot;: &quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 02 Dec 2024 18:07:21 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=20" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="1f96992d-e31f-4d2b-acd3-831491c33341" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;id&quot;:1,&quot;list&quot;:[15,27,9,1,37,7,9,70],&quot;sortAlgorithm&quot;:null,&quot;links&quot;:[{&quot;rel&quot;:&quot;all-datasets&quot;,&quot;href&quot;:&quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;},{&quot;rel&quot;:&quot;all-datasets&quot;,&quot;href&quot;:&quot;http://localhost:8080/WebSortingAlgorithm_war/api/v1/data&quot;}]}" />
+              <option name="size" value="248" />
+              <option name="time" value="13" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="09e6b839-fb75-4929-9ad1-15f0d1a49e1e" />
+        </requestHistoryState>
+      </list>
+    </option>
+  </component>
+</project>

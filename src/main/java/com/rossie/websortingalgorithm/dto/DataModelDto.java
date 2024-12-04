@@ -11,5 +11,6 @@ import java.util.List;
 public class DataModelDto extends RepresentationModel<DataModelDto> {
     private int id;
     private List<Integer> list;
+    private List<Integer> sortedList;
     private String sortAlgorithm;
 }

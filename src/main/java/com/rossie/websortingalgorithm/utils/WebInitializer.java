@@ -1,4 +1,4 @@
-package com.rossie.websortingalgorithm;
+package com.rossie.websortingalgorithm.utils;
 
 import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;

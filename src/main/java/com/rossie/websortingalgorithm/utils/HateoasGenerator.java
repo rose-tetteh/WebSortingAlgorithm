@@ -1,4 +1,4 @@
-package com.rossie.websortingalgorithm;
+package com.rossie.websortingalgorithm.utils;
 
 import com.rossie.websortingalgorithm.controller.Controller;
 import org.springframework.hateoas.Link;

@@ -1,12 +1,10 @@
 package com.rossie.websortingalgorithm.controller;
 
-import com.rossie.websortingalgorithm.HateoasGenerator;
+import com.rossie.websortingalgorithm.utils.HateoasGenerator;
 import com.rossie.websortingalgorithm.model.DataModel;
 import com.rossie.websortingalgorithm.model.SortRequest;
 import com.rossie.websortingalgorithm.service.DataService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.hateoas.Link;
-import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

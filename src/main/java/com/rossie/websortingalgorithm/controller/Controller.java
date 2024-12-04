@@ -1,5 +1,6 @@
 package com.rossie.websortingalgorithm.controller;
 
+import com.rossie.websortingalgorithm.HateoasGenerator;
 import com.rossie.websortingalgorithm.model.DataModel;
 import com.rossie.websortingalgorithm.model.SortRequest;
 import com.rossie.websortingalgorithm.service.DataService;
@@ -16,6 +17,7 @@ import java.util.List;
 @RequestMapping("/api/v1")
 public class Controller {
     private final DataService dataService;
+    private final HateoasGenerator hateoasGenerator;
 
     @GetMapping("/data")
     @ResponseBody
@@ -27,7 +29,7 @@ public class Controller {
     @ResponseBody
     public DataModel getDataById(@PathVariable("id") int id){
         DataModel data = dataService.getDataById(id);
-        addHateoasLinks(data);
+        hateoasGenerator.addHateoasLinks(data);
         return data;
     }
 
@@ -41,15 +43,15 @@ public class Controller {
     @PostMapping("/data/add")
     public DataModel createData(@RequestBody List<Integer> list){
         DataModel dataModel = dataService.createData(list);
-        addHateoasLinks(dataModel);
-        return ResponseEntity.ok(dataModel).getBody();
+        hateoasGenerator.addHateoasLinks(dataModel);
+        return (DataModel) ResponseEntity.ok(dataModel).getBody();
     }
 
     @PostMapping("/sort")
     @ResponseBody
     public ResponseEntity<?> sortData(@RequestBody SortRequest request) {
         DataModel sortedData = dataService.sort(request.getId(), request.getAlgorithm());
-        addHateoasLinks(sortedData);
+        hateoasGenerator.addHateoasLinks(sortedData);
         return ResponseEntity.ok(sortedData);
     }
 
@@ -60,8 +62,4 @@ public class Controller {
         return ResponseEntity.ok("Data Deleted");
     }
 
-    private void addHateoasLinks(DataModel data){
-        Link allDataLink = WebMvcLinkBuilder.linkTo(WebMvcLinkBuilder.methodOn(Controller.class).getAllData()).withRel("all-datasets");
-        data.add(allDataLink);
-    }
 }

@@ -1,6 +1,6 @@
 package com.rossie.websortingalgorithm.service;
 
-import com.rossie.websortingalgorithm.model.DataModel;
+import com.rossie.websortingalgorithm.model.DataModelDto;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
@@ -11,7 +11,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 @Service
 public class DataService {
-    private final Map<Integer, DataModel> dataStore = new HashMap<>();
+    private final Map<Integer, DataModelDto> dataStore = new HashMap<>();
     private final AtomicInteger idCounter = new AtomicInteger(1);
 
     /**
@@ -19,7 +19,7 @@ public class DataService {
      *
      * @return the list
      */
-    public List<DataModel> getAllData(){
+    public List<DataModelDto> getAllData(){
         return new ArrayList<>(dataStore.values());
     }
 
@@ -29,7 +29,7 @@ public class DataService {
      * @param id the id
      * @return the data model
      */
-    public DataModel getDataById(int id){
+    public DataModelDto getDataById(int id){
         return dataStore.get(id);
     }
 
@@ -39,9 +39,9 @@ public class DataService {
      * @param algorithm the algorithm
      * @return the list
      */
-    public List<DataModel> getListOfDataByAlgorithm(String algorithm){
-        List<DataModel> result = new ArrayList<>();
-        for (DataModel data : dataStore.values()){
+    public List<DataModelDto> getListOfDataByAlgorithm(String algorithm){
+        List<DataModelDto> result = new ArrayList<>();
+        for (DataModelDto data : dataStore.values()){
             if (algorithm.equals(data.getSortAlgorithm())){
                 result.add(data);
             }
@@ -55,12 +55,13 @@ public class DataService {
      * @param list the list
      * @return the data model
      */
-    public DataModel createData(List<Integer> list){
+    public DataModelDto createData(List<Integer> list){
         int id = idCounter.getAndIncrement();
-        DataModel data = new DataModel();
+        DataModelDto data = new DataModelDto();
         data.setId(id);
         data.setList(list);
         data.setSortAlgorithm(null);
+        data.setSortedList(null);
         dataStore.put(id, data);
         return data;
     }
@@ -84,8 +85,8 @@ public class DataService {
      * @param algorithm the algorithm
      * @return the data model
      */
-    public DataModel sort(int id, String algorithm) {
-        DataModel data = dataStore.get(id);
+    public DataModelDto sort(SortRequestDto sortRequestDto) {
+        DataModelDto data = dataStore.get(id);
         if (data == null)
             throw new NoSuchElementException("DataModel not found");
 
@@ -100,7 +101,7 @@ public class DataService {
             case "bucketsort" -> new BucketSort();
             default -> throw new IllegalArgumentException("Unsupported sorting algorithm");
         };
-        data.setList(sorter.sort(data.getList()));
+        data.setSortedList(sorter.sort(data.getList()));
         return data;
     }
 }

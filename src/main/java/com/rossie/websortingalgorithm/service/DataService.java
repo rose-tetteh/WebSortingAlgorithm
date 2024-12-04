@@ -86,14 +86,14 @@ public class DataService {
      * @return the data model
      */
     public DataModelDto sort(SortRequestDto sortRequestDto) {
-        DataModelDto data = dataStore.get(id);
+        DataModelDto data = dataStore.get(sortRequestDto.getId());
         if (data == null)
             throw new NoSuchElementException("DataModel not found");
 
-        if (algorithm == null)
+        if (sortRequestDto.getAlgorithm == null)
             throw new IllegalArgumentException("Invalid Sorting Algorithm");
 
-        SortAlgorithm sorter = switch (algorithm.toLowerCase()) {
+        SortAlgorithm sorter = switch (sortRequestDto.getAlgorithm.toLowerCase()) {
             case "quicksort" -> new QuickSort();
             case "heapsort" -> new HeapSort();
             case "mergesort" -> new MergeSort();

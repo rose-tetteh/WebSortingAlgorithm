@@ -41,10 +41,13 @@ public class DataService {
      */
     public List<DataModelDto> getListOfDataByAlgorithm(String algorithm){
         List<DataModelDto> result = new ArrayList<>();
-        for (DataModelDto data : dataStore.values()){
-            if (algorithm.equals(data.getSortAlgorithm())){
-                result.add(data);
-            }
+        try {
+            for (DataModelDto data : dataStore.values())
+                if (algorithm.equals(data.getSortAlgorithm())){
+                    result.add(data);
+                }
+        } catch (NoSuchElementException e){
+            throw new RuntimeException(e.getMessage());
         }
         return result;
     }
@@ -56,13 +59,17 @@ public class DataService {
      * @return the data model
      */
     public DataModelDto createData(List<Integer> list){
-        int id = idCounter.getAndIncrement();
-        DataModelDto data = new DataModelDto();
-        data.setId(id);
-        data.setList(list);
-        data.setSortAlgorithm(null);
-        data.setSortedList(null);
-        dataStore.put(id, data);
+       try {
+           int id = idCounter.getAndIncrement();
+           DataModelDto data = new DataModelDto();
+           data.setId(id);
+           data.setList(list);
+           data.setSortAlgorithm(null);
+           data.setSortedList(null);
+           dataStore.put(id, data);
+       } catch (RuntimeException e){
+           throw new RuntimeException(e.getMessage());
+       }
         return data;
     }
 
@@ -78,12 +85,12 @@ public class DataService {
         dataStore.remove(id);
     }
 
+
     /**
-     * Sort data model.
+     * Sort data model dto.
      *
-     * @param id        the id
-     * @param algorithm the algorithm
-     * @return the data model
+     * @param sortRequestDto the sort request dto
+     * @return the data model dto
      */
     public DataModelDto sort(SortRequestDto sortRequestDto) {
         DataModelDto data = dataStore.get(sortRequestDto.getId());
@@ -101,6 +108,7 @@ public class DataService {
             case "bucketsort" -> new BucketSort();
             default -> throw new IllegalArgumentException("Unsupported sorting algorithm");
         };
+        data.setAlgorithm(sortRequestDto.getAlgotithm());
         data.setSortedList(sorter.sort(data.getList()));
         return data;
     }

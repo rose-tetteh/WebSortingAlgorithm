@@ -39,7 +39,7 @@ public class DataService {
      * @param algorithm the algorithm
      * @return the list
      */
-    public List<DataModel> getDataByAlgorithm(String algorithm){
+    public List<DataModel> getListOfDataByAlgorithm(String algorithm){
         List<DataModel> result = new ArrayList<>();
         for (DataModel data : dataStore.values()){
             if (algorithm.equals(data.getSortAlgorithm())){

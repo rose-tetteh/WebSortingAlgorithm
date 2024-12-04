@@ -10,6 +10,7 @@ import java.util.List;
 public class BucketSort implements SortAlgorithm {
     @Override
     public List<Integer> sort(List<Integer> data) {
+        List<Integer> sortedList = new ArrayList<>();
         int numberOfBuckets = (int) Math.sqrt(data.size());
         List<Integer>[] buckets = new ArrayList[numberOfBuckets];
 
@@ -24,9 +25,9 @@ public class BucketSort implements SortAlgorithm {
 
         for(List<Integer> bucket : buckets){
             Collections.sort(bucket);
-            data.addAll(bucket);
+            sortedList.addAll(bucket);
         }
 
-        return data;
+        return sortedList;
     }
 }

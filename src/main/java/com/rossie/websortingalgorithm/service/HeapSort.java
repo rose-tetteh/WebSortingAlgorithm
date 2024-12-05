@@ -1,5 +1,6 @@
 package com.rossie.websortingalgorithm.service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -8,19 +9,22 @@ import java.util.List;
 public class HeapSort implements SortAlgorithm {
     @Override
     public List<Integer> sort(List<Integer> data) {
-        int n = data.size();
+        // Create a new list to avoid modifying the original list
+        List<Integer> sortedList = new ArrayList<>(data);
+
+        int n = sortedList.size();
         for (int i = n/2 -1; i >= 0; i--)
-            heapify(data,n, i);
+            heapify(sortedList, n, i);
 
         for (int i = n-1; i >= 0; i--) {
-            int temp = data.get(0);
-            data.set(0, data.get(i));
-            data.set(i, temp);
+            int temp = sortedList.get(0);
+            sortedList.set(0, sortedList.get(i));
+            sortedList.set(i, temp);
 
-            heapify(data, i, 0);
+            heapify(sortedList, i, 0);
         }
 
-        return data;
+        return sortedList;
     }
 
     /**
@@ -30,7 +34,7 @@ public class HeapSort implements SortAlgorithm {
      * @param n     the n
      * @param i     the
      */
-    static void heapify(List<Integer> array,int n,int i) {
+    static void heapify(List<Integer> array, int n, int i) {
         int largest = i;
         int left = 2 * i + 1;
         int right = 2 * i + 2;
@@ -42,7 +46,6 @@ public class HeapSort implements SortAlgorithm {
             largest = right;
 
         if (largest != i) {
-
             int temp = array.get(i);
             array.set(i, array.get(largest));
             array.set(largest, temp);
@@ -50,6 +53,4 @@ public class HeapSort implements SortAlgorithm {
             heapify(array, n, largest);
         }
     }
-
-
 }

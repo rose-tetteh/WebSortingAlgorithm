@@ -9,8 +9,9 @@ import java.util.List;
 public class MergeSort implements SortAlgorithm {
     @Override
     public List<Integer> sort(List<Integer> data) {
-        mergeSort(data, 0, data.size() - 1);
-        return data;
+        List<Integer> sortedList = new ArrayList<>(data);
+        mergeSort(sortedList, 0, sortedList.size() - 1);
+        return sortedList;
     }
 
     private void mergeSort(List<Integer> array, int left, int right) {

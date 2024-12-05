@@ -25,11 +25,27 @@
         .dataset-card {
             margin-bottom: 10px;
         }
+        .dataset-details {
+            display: none;
+            margin-top: 10px;
+            background-color: #f1f3f5;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .expand-btn {
+            cursor: pointer;
+            margin-left: 10px;
+            font-size: 1.2em;
+            user-select: none;
+        }
+        .details-container {
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
 <div class="container my-5">
-    <h1 class="text-center mb-4">Dataset Sorting Tool</h1>
+    <h1 class="text-center mb-4">Advanced Web Sorting Tool</h1>
 
     <div class="row">
         <div class="col-md-6">
@@ -117,6 +133,23 @@
     $(document).ready(function () {
         const BASE_URL = 'http://localhost:8080/WebSortingAlgorithm_war/api/v1';
 
+        function createDatasetDetailsHTML(dataset) {
+            return `
+                <div class="details-container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <strong>Unsorted List:</strong>
+                            <p>${dataset.list.join(', ')}</p>
+                        </div>
+                        <div class="col-md-4">
+                            <strong>Sorted List:</strong>
+                            <p>${dataset.sortedList ? dataset.sortedList.join(', ') : 'Not sorted yet'}</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
         function loadDatasets() {
             $.ajax({
                 url: BASE_URL + '/data',
@@ -137,15 +170,40 @@
                                 </option>
                             `);
 
-                            // Add dataset to available datasets section
+
                             $datasetList.append(`
-                                <div class="alert alert-secondary dataset-card d-flex justify-content-between align-items-center">
-                                    <span>Dataset ${dataset.id}: ${dataset.list.join(', ')}</span>
-                                    <button class="btn btn-sm btn-danger delete-dataset" data-id="${dataset.id}">
-                                        <i class="fas fa-trash"></i>
-                                    </button>
+                                <div class="card mb-2">
+                                    <div class="card-header d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <span>Dataset ${dataset.id}: ${dataset.list.join(', ')}</span>
+                                            <span class="expand-btn text-primary" data-id="${dataset.id}">
+                                                &#9660;
+                                            </span>
+                                        </div>
+                                        <button class="btn btn-sm btn-danger delete-dataset" data-id="${dataset.id}">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                    </div>
+                                    <div id="dataset-details-${dataset.id}" class="card-body dataset-details">
+                                        ${createDatasetDetailsHTML(dataset)}
+                                    </div>
                                 </div>
                             `);
+                        });
+
+
+                        $('.expand-btn').on('click', function() {
+                            const datasetId = $(this).data('id');
+                            const $details = $(`#dataset-details-${datasetId}`);
+                            const $btn = $(this);
+
+                            if ($details.is(':visible')) {
+                                $details.slideUp();
+                                $btn.html('&#9660;');
+                            } else {
+                                $details.slideDown();
+                                $btn.html('&#9650;');
+                            }
                         });
                     } else {
                         $datasetList.html('<p class="text-muted">No datasets available</p>');
@@ -161,9 +219,6 @@
             });
         }
 
-        // Initial load of datasets
-        loadDatasets();
-
         // Create Dataset
         $('#dataForm').submit(function(event) {
             event.preventDefault();
@@ -175,7 +230,6 @@
                 contentType: 'application/json',
                 data: JSON.stringify(dataList),
                 success: function(dataset) {
-                    // Reload datasets to update dropdown and available datasets
                     loadDatasets();
 
                     $('#dataList').val('');
@@ -224,13 +278,12 @@
                                 <div class="col-md-6">
                                     <h5>Sorted Dataset</h5>
                                     <p><strong>Algorithm:</strong> ${algorithm}</p>
-                                    <p><strong>Sorted Data:</strong> ${response.list.join(', ')}</p>
+                                    <p><strong>Sorted Data:</strong> ${response.sortedList.join(', ')}</p>
                                 </div>
                             </div>
                         </div>
                     `);
 
-                    // Reload datasets to ensure the updated dataset is reflected
                     loadDatasets();
                 },
                 error: function() {
@@ -251,7 +304,6 @@
                 url: BASE_URL + `/data/${datasetId}/delete`,
                 method: 'DELETE',
                 success: function() {
-                    // Reload datasets to update dropdown and available datasets
                     loadDatasets();
                     $('#resultBox').html(`
                         <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -270,6 +322,8 @@
                 }
             });
         });
+
+        loadDatasets();
     });
 </script>
 </body>

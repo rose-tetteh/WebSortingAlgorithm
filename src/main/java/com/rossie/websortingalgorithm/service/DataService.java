@@ -1,6 +1,6 @@
 package com.rossie.websortingalgorithm.service;
 
-import com.rossie.websortingalgorithm.model.DataModel;
+import com.rossie.websortingalgorithm.model.DataModelDto;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
@@ -11,7 +11,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 @Service
 public class DataService {
-    private final Map<Integer, DataModel> dataStore = new HashMap<>();
+    private final Map<Integer, DataModelDto> dataStore = new HashMap<>();
     private final AtomicInteger idCounter = new AtomicInteger(1);
 
     /**
@@ -19,7 +19,7 @@ public class DataService {
      *
      * @return the list
      */
-    public List<DataModel> getAllData(){
+    public List<DataModelDto> getAllData(){
         return new ArrayList<>(dataStore.values());
     }
 
@@ -29,7 +29,7 @@ public class DataService {
      * @param id the id
      * @return the data model
      */
-    public DataModel getDataById(int id){
+    public DataModelDto getDataById(int id){
         return dataStore.get(id);
     }
 
@@ -39,12 +39,15 @@ public class DataService {
      * @param algorithm the algorithm
      * @return the list
      */
-    public List<DataModel> getListOfDataByAlgorithm(String algorithm){
-        List<DataModel> result = new ArrayList<>();
-        for (DataModel data : dataStore.values()){
-            if (algorithm.equals(data.getSortAlgorithm())){
-                result.add(data);
-            }
+    public List<DataModelDto> getListOfDataByAlgorithm(String algorithm){
+        List<DataModelDto> result = new ArrayList<>();
+        try {
+            for (DataModelDto data : dataStore.values())
+                if (algorithm.equals(data.getSortAlgorithm())){
+                    result.add(data);
+                }
+        } catch (NoSuchElementException e){
+            throw new RuntimeException(e.getMessage());
         }
         return result;
     }
@@ -55,13 +58,18 @@ public class DataService {
      * @param list the list
      * @return the data model
      */
-    public DataModel createData(List<Integer> list){
-        int id = idCounter.getAndIncrement();
-        DataModel data = new DataModel();
-        data.setId(id);
-        data.setList(list);
-        data.setSortAlgorithm(null);
-        dataStore.put(id, data);
+    public DataModelDto createData(List<Integer> list){
+       try {
+           int id = idCounter.getAndIncrement();
+           DataModelDto data = new DataModelDto();
+           data.setId(id);
+           data.setList(list);
+           data.setSortAlgorithm(null);
+           data.setSortedList(null);
+           dataStore.put(id, data);
+       } catch (RuntimeException e){
+           throw new RuntimeException(e.getMessage());
+       }
         return data;
     }
 
@@ -77,22 +85,22 @@ public class DataService {
         dataStore.remove(id);
     }
 
+
     /**
-     * Sort data model.
+     * Sort data model dto.
      *
-     * @param id        the id
-     * @param algorithm the algorithm
-     * @return the data model
+     * @param sortRequestDto the sort request dto
+     * @return the data model dto
      */
-    public DataModel sort(int id, String algorithm) {
-        DataModel data = dataStore.get(id);
+    public DataModelDto sort(SortRequestDto sortRequestDto) {
+        DataModelDto data = dataStore.get(sortRequestDto.getId());
         if (data == null)
             throw new NoSuchElementException("DataModel not found");
 
-        if (algorithm == null)
+        if (sortRequestDto.getAlgorithm == null)
             throw new IllegalArgumentException("Invalid Sorting Algorithm");
 
-        SortAlgorithm sorter = switch (algorithm.toLowerCase()) {
+        SortAlgorithm sorter = switch (sortRequestDto.getAlgorithm.toLowerCase()) {
             case "quicksort" -> new QuickSort();
             case "heapsort" -> new HeapSort();
             case "mergesort" -> new MergeSort();
@@ -100,7 +108,8 @@ public class DataService {
             case "bucketsort" -> new BucketSort();
             default -> throw new IllegalArgumentException("Unsupported sorting algorithm");
         };
-        data.setList(sorter.sort(data.getList()));
+        data.setAlgorithm(sortRequestDto.getAlgotithm());
+        data.setSortedList(sorter.sort(data.getList()));
         return data;
     }
 }
